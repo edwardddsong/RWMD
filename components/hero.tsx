@@ -50,7 +50,7 @@ export default function Hero() {
               className="text-base text-slate-300 mb-8"
               data-aos="fade-down"
               data-aos-delay="200">
-              市场里没有偶然 —— 读懂市场里每一根K线背后的意义才是优秀的交易
+              市场里没有偶然 —— 读懂每一根K线背后的意义才是优秀的交易
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4"
