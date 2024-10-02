@@ -34,14 +34,14 @@ export default function Story() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
               <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60">
-                Our story (so far)
+                RWMD的故事
               </h2>
             </div>
 
             <div className="md:flex justify-between space-x-6 md:space-x-8 lg:space-x-14">
               <figure className="min-w-[240px]">
                 <Image
-                  className="sticky top-8 mx-auto mb-12 md:mb-0 rounded-lg -rotate-[4deg]"
+                  className="sticky top-8 mx-auto mb-12 md:mb-0 rounded-lg "
                   src={Team}
                   width={420}
                   height={280}
@@ -51,22 +51,26 @@ export default function Story() {
               <div className="max-w-[548px] mx-auto">
                 <div className="text-slate-400 space-y-6">
                   <p>
-                    We came together over a shared excitement about building a
-                    product that could solve our own problem of where our next
-                    favourite hack is coming from. But also a product that helps
-                    everyone thrive in this market: from founders and engineers
-                    to companies and investors.
+                    RWMD由四位来⾃不同领域但对⾦融抱有同样热爱的华⼈创⽴。
+                    在亲⾝经历华⼈投资⼀次次的艰⾟与挣扎，亲眼⽬睹本地理财产品、投资市场的⼀桩桩案例后，四位抱有同样愿景的合伙⼈决⼼集合各⾃领域的知识技术以及经验，创⽴⼀⼼为华⼈放⼼投资贡献⼒量的⾦融⼯作室，起步外汇、着眼⾦融市场，让更多投资⼈不畏惧市场和⼈⼼，信任产品与技术，营造值得信赖的投资环境。
+                    RWMD创⽴的初衷也是将贯彻始终的理念：对投资上⼼，让资金安心，与客户同心，让客⼾放⼼。
                   </p>
                   <p>
-                    Stellar is a product that connects people around the topics
-                    and ideas that fascinate them.{" "}
                     <strong className="text-slate-50 font-medium">
-                      The idea that we can use technology to take our experience
+                      RWMD使命
                     </strong>
-                    , as security lovers, to a new dimension and leave the
-                    computer industry in better shape while we're at it.
+                    <br />
+                    我们的根本使命是始终坚守透明、诚实的交易原则，确保客⼾的资⾦安全和投资利益最⼤化。
                   </p>
+
                   <p>
+                    <strong className="text-slate-50 font-medium">
+                      RWMD愿景
+                    </strong>
+                    <br />
+                    我们的愿景是成为全球领先的⾦融服务提供商，创造⼀个既安全⼜便捷的交易环境，使每⼀位客⼾都能轻松接触并参与到全球⾦融市场中。
+                  </p>
+                  {/* <p>
                     You can dive into the atoms that make up a product, share
                     the moments that move you and discuss the ideas you find
                     compelling. We want to create a ground for{" "}
@@ -101,7 +105,7 @@ export default function Story() {
                     ten years by the emergence of the mostly tech-powered gig
                     economy which has created a new generation of shift workers
                     and indeed
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

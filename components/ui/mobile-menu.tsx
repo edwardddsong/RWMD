@@ -57,19 +57,19 @@ export default function MobileMenu() {
       >
         <ul className="border border-transparent [background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box] rounded-lg px-4 py-1.5">
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/about">About</Link>
+            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/about">关于我们</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/integrations">Integrations</Link>
+            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/integrations">RWMD服务</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/pricing">Pricing</Link>
+            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/pricing">订阅服务</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/customers">Customers</Link>
+            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/customers">每日分析</Link>
           </li>
           <li>
-            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/changelog">Changelog</Link>
+            <Link className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5" href="/changelog">直播回顾</Link>
           </li>
         </ul>
       </nav>
