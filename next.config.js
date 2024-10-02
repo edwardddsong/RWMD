@@ -7,7 +7,7 @@ const nextConfig = {
 
   // Disable TypeScript build errors
   typescript: {
-    ignoreBuildErrors: true,  // 忽略 TypeScript 错误
+    ignoreBuildErrors: true,  // 忽略 TypeScript 错误http://localhost:3000/#0
   },
 
   // Disable ESLint during builds
