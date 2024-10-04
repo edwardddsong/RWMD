@@ -30,25 +30,26 @@ export default function Header() {
                   RWMD服务
                 </Link>
               </li>
-              <li>
-                <Link
-                  className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/pricing">
-                  订阅服务
-                </Link>
-              </li>
+
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="/customers">
-                  每日分析
+                  学习中心
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="/changelog">
-                  直播回顾
+                  每周分析
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
+                  href="/pricing">
+                  客户感言
                 </Link>
               </li>
             </ul>
