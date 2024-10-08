@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Changelog - Stellar",
+  title: "Changelog - RWMD",
   description: "Page description",
 };
 
@@ -58,7 +58,7 @@ export default function Changelog() {
               </h1>
               <div className="max-w-3xl mx-auto">
                 <p className="text-lg text-slate-400">
-                  New updates and improvements to Stellar.
+                  New updates and improvements to RWMD.
                 </p>
               </div>
             </div>
