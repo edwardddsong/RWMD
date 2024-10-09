@@ -2,9 +2,10 @@ import Image from "next/image";
 import Particles from "./particles";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from "@/public/images/RWMD LOGO.jpg";
-import FeatureImg02 from "@/public/images/feature-image-02.png";
-import FeatureImg03 from "@/public/images/feature-image-03.png";
+import FeatureImg01 from "@/public/images/rich.png";
+// import FeatureImg01 from "@/public/images/feature-image-01.png";
+import FeatureImg02 from "@/public/images/desk.jpeg";
+import FeatureImg03 from "@/public/images/cp.jpg";
 
 export default function Features02() {
   return (
@@ -32,7 +33,7 @@ export default function Features02() {
               此外，估计有80%的新手交易者在第一年内退出交易市场。
               如果您已经投入了超过一个月的专注且高质量的学习，您已经领先于40%的交易者。
               然而关键不在于花了多少时间，而在于学习的质量。如果停滞不前，不断更换策略或导师，或者花费时间却没有真正进步，即使经过数月的“学习”，您可能仍然处于初学者阶段。
-              实际的、渐进的学习。确保您明智的运用时间，可以显著加速您在交易中的进步。
+              实际的、有效的学习，确保您明智的运用时间，可以显著加速您在交易中的进步。
             </p>
           </div>
 
@@ -117,13 +118,12 @@ export default function Features02() {
                             </h3>
                             <p className="text-slate-400 mt-8">
                               我热衷于教学分享，并且对自己有效传授知识的能力充满信心。
-                              <br />
-                              <p className="text-slate-400 mt-2">
-                                我坚信任何人都能学会盈利交易，但成为一名好老师需要具备某些特质。
-                                <p className="text-slate-400 mt-2">
-                                  当你知道自己教会了别人一项他们可以终生受用的技能时，那种满足感是难以言表的。我亲眼见证了每周社区会议中的心理见解和深入讨论，如何不仅改变了人们的交易生涯，同时也改变了生活。
-                                </p>
-                              </p>
+                            </p>
+                            <p className="text-slate-400 mt-2">
+                              我坚信任何人都能学会盈利交易，但成为一名好老师需要具备某些特质。关键不在于了解所有关于交易的知识，而是专注于最有用和最相关的概念，构建一个坚实、持久的交易系统。
+                            </p>
+                            <p className="text-slate-400 mt-2">
+                              当你知道自己教会了别人一项他们可以终生受用的技能时，那种满足感是难以言表的。我亲眼见证了每周社区会议中的心理见解和深入讨论，如何不仅改变了人们的交易生涯，同时也改变了生活。
                             </p>
                           </div>
                         </div>
@@ -169,11 +169,16 @@ export default function Features02() {
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
                           <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">
-                            Extensibility
+                            RWMD | Ed
                           </h3>
-                          <p className="text-slate-400">
-                            Your login box must find the right balance between
-                            user convenience, privacy and security.
+                          <p className="text-slate-400 mt-6">
+                            作为一名专业的交易员，我一直致力于通过教学和指导帮助他人提升交易技能。我坚信，成功的交易不仅依赖于技术，更依赖于对市场的深入理解和心理素质的培养。{" "}
+                          </p>
+                          <p className="text-slate-400 mt-3">
+                            我坚信，每个人都有能力在市场中找到自己的盈利之道，但这需要系统的学习与正确的引导。我通过多年的实践和经验，开发了一套行之有效的教学方法，帮助新手交易者快速上手，同时帮助有经验的交易者突破瓶颈。{" "}
+                          </p>
+                          <p className="text-slate-400 mt-3">
+                            我深知传授交易知识的责任，也正是这种责任感让我在教学过程中始终保持严谨和耐心。我见证了无数人在学习后取得的进步，不仅在交易上更加自信，也在生活中更加从容应对挑战。{" "}
                           </p>
                         </div>
                       </div>
@@ -206,21 +211,26 @@ export default function Features02() {
                       <div className="md:max-w-[480px] shrink-0 order-1 md:order-none p-6 pt-0 md:p-8">
                         <div>
                           <h3 className="inline-flex text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-1">
-                            Infinite options
+                            RWMD | DD
                           </h3>
-                          <p className="text-slate-400">
-                            Quickly apply filters to refine your issues lists
-                            and create custom views.
+                          <p className="text-slate-400 mt-6">
+                            作为销售总监，我始终热衷于帮助投资者在复杂多变的金融市场中自信应对挑战。
+                          </p>
+                          <p className="text-slate-400 mt-3">
+                            凭借多年的经验，我秉持透明、公开的原则，致力于为客户提供全面的交易知识和有效的工具，帮助他们做出明智的投资决策，减少风险。{" "}
+                          </p>
+                          <p className="text-slate-400 mt-3">
+                            我坚信，只有通过建立信任，创造一个安全、稳定的交易环境，才能真正助力投资者取得长期的成功，甚至改变他们的财务未来。{" "}
                           </p>
                         </div>
                       </div>
                       {/* Image */}
                       <div className="relative w-full h-64 md:h-auto overflow-hidden md:pb-8">
                         <Image
-                          className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
+                          className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0 ml-6 mr-6"
                           src={FeatureImg03}
-                          width={230}
-                          height={230}
+                          // width={230}
+                          // height={230}
                           alt="Feature 03"
                         />
                       </div>
