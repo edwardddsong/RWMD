@@ -1,25 +1,29 @@
 import Link from "next/link";
 import Image from "next/image";
 import CustomerImg01 from "@/public/images/customer-01.svg";
-import CustomerBg01 from "@/public/images/customer-bg-01.png";
+import CustomerBg01 from "@/public/RWMD_learning/bearish_ob.jpg";
 import CustomerImg02 from "@/public/images/customer-02.svg";
-import CustomerBg02 from "@/public/images/customer-bg-02.png";
+import CustomerBg02 from "@/public/RWMD_learning/bullish_ob.jpg";
 import CustomerImg03 from "@/public/images/customer-03.svg";
-import CustomerBg03 from "@/public/images/customer-bg-03.png";
+import CustomerBg03 from "@/public/RWMD_learning/bearish_fvg.jpg";
 import CustomerImg04 from "@/public/images/customer-04.svg";
-import CustomerBg04 from "@/public/images/customer-bg-04.png";
+import CustomerBg04 from "@/public/RWMD_learning/bullish_fvg.jpg";
 import CustomerImg05 from "@/public/images/customer-05.svg";
-import CustomerBg05 from "@/public/images/customer-bg-05.png";
+import CustomerBg05 from "@/public/RWMD_learning/bearish_breaker.jpg";
 import CustomerImg06 from "@/public/images/customer-06.svg";
-import CustomerBg06 from "@/public/images/customer-bg-06.png";
+import CustomerBg06 from "@/public/RWMD_learning/bullish_breaker.jpg";
 import CustomerImg07 from "@/public/images/customer-07.svg";
-import CustomerBg07 from "@/public/images/customer-bg-07.png";
+import CustomerBg07 from "@/public/RWMD_learning/AMD.jpg";
 import CustomerImg08 from "@/public/images/customer-08.svg";
-import CustomerBg08 from "@/public/images/customer-bg-08.png";
+import CustomerBg08 from "@/public/RWMD_learning/Dealing Range.jpg";
 import CustomerImg09 from "@/public/images/customer-09.svg";
-import CustomerBg09 from "@/public/images/customer-bg-09.png";
+import CustomerBg09 from "@/public/RWMD_learning/PO3.jpg";
 import CustomerImg10 from "@/public/images/customer-10.svg";
-import CustomerBg10 from "@/public/images/customer-bg-10.png";
+import CustomerBg12 from "@/public/RWMD_learning/Swing Point.jpg";
+import CustomerImg11 from "@/public/images/customer-10.svg";
+import CustomerBg11 from "@/public/RWMD_learning/IRL-ERL.jpg";
+import CustomerImg12 from "@/public/images/customer-10.svg";
+import CustomerBg10 from "@/public/RWMD_learning/季节性趋势影响.png";
 import CustomerAvatar01 from "@/public/images/customer-avatar-01.jpg";
 import CustomerAvatar02 from "@/public/images/customer-avatar-02.jpg";
 import Particles from "@/components/particles";
@@ -87,6 +91,18 @@ export default function CustomersList() {
       bg: CustomerBg10,
       link: "/customers/single-post",
     },
+    {
+      name: "Customer name",
+      img: CustomerImg11,
+      bg: CustomerBg11,
+      link: "/customers/single-post",
+    },
+    {
+      name: "Customer name",
+      img: CustomerImg12,
+      bg: CustomerBg12,
+      link: "/customers/single-post",
+    },
   ];
 
   return (
@@ -94,7 +110,7 @@ export default function CustomersList() {
       <Highlighter className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 group [&_*:nth-child(n+5):not(:nth-child(n+12))]:order-1 [&_*:nth-child(n+10):not(:nth-child(n+11))]:!order-2">
         {items.map((item, index) => (
           <div key={index}>
-            <Link href={item.link}>
+            <a href={item.bg.src} target="_blank">
               <HighlighterItem02>
                 <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
                   {/* Particles animation */}
@@ -112,7 +128,7 @@ export default function CustomersList() {
                   </div>
                 </div>
               </HighlighterItem02>
-            </Link>
+            </a>
           </div>
         ))}
 
@@ -121,7 +137,7 @@ export default function CustomersList() {
           <p className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">
             <span className="line-clamp-4">
               “We struggled to bring all our conversations into one place until
-              we found RWMD. The UI is very clean and we love the integration
+              we found Stellar. The UI is very clean and we love the integration
               with Spark.”
             </span>
           </p>
@@ -146,7 +162,7 @@ export default function CustomersList() {
           <p className="font-medium bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-3">
             <span className="line-clamp-4">
               “We struggled to bring all our conversations into one place until
-              we found RWMD. The UI is very clean and we love the integration
+              we found Stellar. The UI is very clean and we love the integration
               with Spark.”
             </span>
           </p>

@@ -91,6 +91,13 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
+              href="/customers">
+              实战案例
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
               href="/pricing">
               客户感言
             </Link>

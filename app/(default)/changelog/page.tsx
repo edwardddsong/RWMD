@@ -57,9 +57,7 @@ export default function Changelog() {
                 每周分析
               </h1>
               <div className="max-w-3xl mx-auto">
-                <p className="text-lg text-slate-400">
-                  New updates and improvements to RWMD.
-                </p>
+                <p className="text-lg text-slate-400">下周行情早知道</p>
               </div>
             </div>
 

@@ -41,16 +41,19 @@ export default function Customers() {
             {/* Section header */}
             <div className="text-center pb-12 md:pb-20">
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
-                Leaders love RWMD
+                学习中心
               </div>
               <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-                Trusted by leading companies
+                RWMD机构算法交易
               </h1>
               <div className="max-w-3xl mx-auto">
                 <p className="text-lg text-slate-400">
-                  RWMD powers thousands of high-impact product teams. From
-                  next-gen startups who reach for the stars to established
-                  greats who change the world.
+                  机构算法交易不同于以往的传统技术分析和技术指标分析，更多的注重于市场里流动性和订单匹配。深度解读每个时间段和每一根K线背后的含义，更加明确的入场及出场点位，了解市场运行的底层逻辑，提高交易盈亏比。
+                </p>
+                <br />
+                <p className="text-lg text-slate-400">
+                  这个市场里没有偶然，读懂每一根K线背后的含义才是优秀的交易员 ——
+                  RWMD Z
                 </p>
               </div>
             </div>
