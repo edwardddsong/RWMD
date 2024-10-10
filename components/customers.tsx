@@ -44,7 +44,7 @@ export default function Customers() {
     {
       img: CustomerImg04,
       quote:
-        "RWMD的导师经验丰富，课程内容非常接地气，实用性特别强。学完之后，我对市场的判断力明显提高了，也不再盲目追随热点了。",
+        "RWMD的导师经验丰富，课程内容非常接地气，学完对市场的判断力明显提高了，也不再盲目追随热点了。",
       name: "Jessie Maison",
       twitter: {
         handle: "@jessiem9",
