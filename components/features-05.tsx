@@ -25,7 +25,7 @@ export default function Features05() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
               Stop overpaying for software
             </h2>
@@ -33,12 +33,11 @@ export default function Features05() {
               There are many variations available, but the majority have
               suffered alteration in some form, by injected humour.
             </p>
-          </div>
+          </div> */}
 
           {/* Rings illustration */}
-          <div className="text-center pb-8">
+          {/* <div className="text-center pb-8">
             <div className="inline-flex items-center justify-center relative">
-              {/* Particles animation */}
               <Particles className="absolute inset-0 -z-10" quantity={10} />
               <div className="inline-flex">
                 <Image
@@ -120,11 +119,10 @@ export default function Features05() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Features list */}
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Card #1 */}
+          {/* <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div className="bg-gradient-to-tr from-slate-800/50 to-slate-800/10 rounded-3xl border border-slate-800">
               <div className="flex items-center space-x-4 p-4 h-full">
                 <svg
@@ -152,7 +150,6 @@ export default function Features05() {
                 </p>
               </div>
             </div>
-            {/* Card #2 */}
             <div className="bg-gradient-to-tr from-slate-800/50 to-slate-800/10 rounded-3xl border border-slate-800">
               <div className="flex items-center space-x-4 p-4 h-full">
                 <svg
@@ -180,7 +177,6 @@ export default function Features05() {
                 </p>
               </div>
             </div>
-            {/* Card #3 */}
             <div className="bg-gradient-to-tr from-slate-800/50 to-slate-800/10 rounded-3xl border border-slate-800">
               <div className="flex items-center space-x-4 p-4 h-full">
                 <svg
@@ -209,7 +205,6 @@ export default function Features05() {
                 </p>
               </div>
             </div>
-            {/* Card #4 */}
             <div className="bg-gradient-to-tr from-slate-800/50 to-slate-800/10 rounded-3xl border border-slate-800">
               <div className="flex items-center space-x-4 p-4 h-full">
                 <svg
@@ -237,7 +232,6 @@ export default function Features05() {
                 </p>
               </div>
             </div>
-            {/* Card #5 */}
             <div className="bg-gradient-to-tr from-slate-800/50 to-slate-800/10 rounded-3xl border border-slate-800">
               <div className="flex items-center space-x-4 p-4 h-full">
                 <svg
@@ -265,7 +259,6 @@ export default function Features05() {
                 </p>
               </div>
             </div>
-            {/* Card #6 */}
             <div className="bg-gradient-to-tr from-slate-800/50 to-slate-800/10 rounded-3xl border border-slate-800">
               <div className="flex items-center space-x-4 p-4 h-full">
                 <svg
@@ -293,7 +286,7 @@ export default function Features05() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

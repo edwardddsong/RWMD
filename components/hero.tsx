@@ -42,7 +42,7 @@ export default function Hero() {
               </div>
             </div>
             <h1
-              className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4"
+              className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4"
               data-aos="fade-down">
               RWMD 机构算法交易
             </h1>

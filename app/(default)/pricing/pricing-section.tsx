@@ -30,17 +30,17 @@ export default function PricingSection() {
         />
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 -mb-40">
         <div className="pt-32 pb-20 md:pt-40 md:pb-24">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
             <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
-              RWMD TRADING
+              RWMD机构算法交易
             </div>
             <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              客户反馈
+              客户感言
             </h1>
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-3xl mx-auto mt">
               <p className="text-lg text-slate-400">
                 倾听来自RWMD学员的声音，一位优秀的导师和一套好的教程是如何帮助他们在市场里一步步迈向成功。
               </p>

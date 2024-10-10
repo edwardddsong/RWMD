@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Integrations - RWMD",
+  title: "加入RWMD - RWMD",
   description: "Page description",
 };
 

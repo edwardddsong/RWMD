@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "About - RWMD",
+  title: "关于 - RWMD",
   description: "Page description",
 };
 

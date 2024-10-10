@@ -45,11 +45,11 @@ export default function Features03() {
             </p>
           </div> */}
 
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto transform -translate-y-20">
             <div data-aos="fade-down">
               <Highlighter className="group">
                 <HighlighterItem>
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden ">
                     {/* Radial gradient */}
                     <div
                       className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"

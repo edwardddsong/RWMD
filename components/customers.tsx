@@ -1,21 +1,21 @@
 import Image from "next/image";
-import CustomerImg01 from "@/public/images/customer-01.jpg";
-import CustomerImg02 from "@/public/images/customer-02.jpg";
-import CustomerImg03 from "@/public/images/customer-03.jpg";
-import CustomerImg04 from "@/public/images/customer-04.jpg";
-import CustomerImg05 from "@/public/images/customer-05.jpg";
-import CustomerImg06 from "@/public/images/customer-06.jpg";
-import CustomerImg07 from "@/public/images/customer-07.jpg";
-import CustomerImg08 from "@/public/images/customer-08.jpg";
-import CustomerImg09 from "@/public/images/customer-09.jpg";
+import CustomerImg01 from "@/public/images/review1.png";
+import CustomerImg02 from "@/public/images/review2.png";
+import CustomerImg03 from "@/public/images/review3.png";
+import CustomerImg04 from "@/public/images/review4.png";
+import CustomerImg05 from "@/public/images/review5.png";
+import CustomerImg06 from "@/public/images/review6.png";
+import CustomerImg07 from "@/public/images/review7.png";
+import CustomerImg08 from "@/public/images/review8.png";
+import CustomerImg09 from "@/public/images/review9.png";
 
 export default function Customers() {
   const items = [
     {
       img: CustomerImg01,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Mike Smets",
+        "跟着Edward老师学习后，我对市场的理解有了质的飞跃。从最初的无从下手，到现在能够制定自己的交易策略，感觉进步非常大。。",
+      name: "Jun",
       twitter: {
         handle: "@MikeSmets",
         link: "#0",
@@ -24,7 +24,7 @@ export default function Customers() {
     {
       img: CustomerImg02,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "在跟随RWMD的学习过程中，我掌握了系统化的交易方法现在已经开始逐渐掌握了交易的节奏",
       name: "Mike Bryan",
       twitter: {
         handle: "@mike0point7",
@@ -34,7 +34,7 @@ export default function Customers() {
     {
       img: CustomerImg03,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "以前总是凭感觉交易，亏多赚少。通过RWMD的学习，我学会了如何理性分析市场，避开了很多不必要的风险，现在终于可以看到持续的盈利。",
       name: "Liz Park",
       twitter: {
         handle: "@liz-park82",
@@ -44,7 +44,7 @@ export default function Customers() {
     {
       img: CustomerImg04,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "RWMD的导师经验丰富，课程内容非常接地气，实用性特别强。学完之后，我对市场的判断力明显提高了，也不再盲目追随热点了。",
       name: "Jessie Maison",
       twitter: {
         handle: "@jessiem9",
@@ -54,7 +54,7 @@ export default function Customers() {
     {
       img: CustomerImg05,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "RWMD老师教导的学习路径和分析方法特别好用。经过一段时间的学习，我的交易思路变得更加清晰，收益也稳定下来了。",
       name: "Devani Janssen",
       twitter: {
         handle: "@deva07p",
@@ -64,7 +64,7 @@ export default function Customers() {
     {
       img: CustomerImg06,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "通过RWMD的学习，我学会了如何合理管理资金和控制风险。导师的指导让我在市场中更加游刃有余。",
       name: "Mark Gerkules",
       twitter: {
         handle: "@mark-gerk",
@@ -74,7 +74,7 @@ export default function Customers() {
     {
       img: CustomerImg07,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "在RWMD的学习让我改变了以前冲动交易的习惯，现在每一步都有据可依。导师的建议总是精准到位，让我避免了很多亏损。",
       name: "Andrey Propenk",
       twitter: {
         handle: "@andrey-prok",
@@ -84,8 +84,8 @@ export default function Customers() {
     {
       img: CustomerImg08,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
-      name: "Jay Master",
+        "RWMD的导师讲课深入浅出，很多以前觉得难懂的概念现在都变得清晰了。通过他们的指导，我已经找到了适合自己的交易方式，收益越来越稳定。",
+      name: "龙行天下",
       twitter: {
         handle: "@masterpro",
         link: "#0",
@@ -94,7 +94,7 @@ export default function Customers() {
     {
       img: CustomerImg09,
       quote:
-        "I love RWMD, is super easy to use with top notch features. My favourites are the affiliates and the lovely login box that converts like magic.",
+        "Z很专业，课程设计也很合理，适合我们这些零基础的学员。跟着他们一步步学习，我从什么都不懂到现在能独立做交易，真的收获满满。",
       name: "Steve Wolf",
       twitter: {
         handle: "@imsteve",
@@ -116,7 +116,7 @@ export default function Customers() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Content */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
               Meet our customers
             </h2>
@@ -125,7 +125,7 @@ export default function Customers() {
               suffered, by injected humour, or randomised words which don't look
               even slightly believable.
             </p>
-          </div>
+          </div> */}
           {/* Customers */}
           <div className="grid lg:grid-cols-3 gap-4 sm:gap-6 max-w-xs mx-auto lg:max-w-none">
             {items.map((item, index) => (
@@ -145,11 +145,11 @@ export default function Customers() {
                       <div className="font-bold text-slate-100 truncate">
                         {item.name}
                       </div>
-                      <a
+                      {/* <a
                         className="text-sm text-slate-500 hover:text-slate-300 font-medium truncate transition-colors"
                         href={item.twitter.link}>
                         {item.twitter.handle}
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                   <svg

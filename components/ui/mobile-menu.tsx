@@ -76,7 +76,7 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/integrations">
+              href="/join">
               加入RWMD
             </Link>
           </li>

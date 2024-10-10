@@ -242,8 +242,7 @@ export default function Features02() {
           </div>
 
           {/* Features list */}
-          <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-            {/* Feature */}
+          {/* <div className="grid md:grid-cols-3 gap-8 md:gap-12">
             <div>
               <div className="flex items-center space-x-2 mb-1">
                 <svg
@@ -260,7 +259,7 @@ export default function Features02() {
                 privacy and security.
               </p>
             </div>
-            {/* Feature */}
+
             <div>
               <div className="flex items-center space-x-2 mb-1">
                 <svg
@@ -277,7 +276,7 @@ export default function Features02() {
                 privacy and security.
               </p>
             </div>
-            {/* Feature */}
+
             <div>
               <div className="flex items-center space-x-2 mb-1">
                 <svg
@@ -294,7 +293,7 @@ export default function Features02() {
                 privacy and security.
               </p>
             </div>
-            {/* Feature */}
+
             <div>
               <div className="flex items-center space-x-2 mb-1">
                 <svg
@@ -311,7 +310,7 @@ export default function Features02() {
                 privacy and security.
               </p>
             </div>
-            {/* Feature */}
+
             <div>
               <div className="flex items-center space-x-2 mb-1">
                 <svg
@@ -328,7 +327,7 @@ export default function Features02() {
                 privacy and security.
               </p>
             </div>
-            {/* Feature */}
+
             <div>
               <div className="flex items-center space-x-2 mb-1">
                 <svg
@@ -345,7 +344,7 @@ export default function Features02() {
                 privacy and security.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
