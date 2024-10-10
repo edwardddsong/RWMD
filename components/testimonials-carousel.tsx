@@ -8,7 +8,7 @@ import Highlighter, { HighlighterItem } from "./highlighter";
 import CarouselImg01 from "@/public/images/bbls.png";
 import CarouselImg02 from "@/public/images/fwdxc.png";
 import CarouselImg03 from "@/public/images/sam.png";
-import CarouselImg04 from "@/public/images/shian.png";
+import CarouselImg04 from "@/public/images/shian1.png";
 import CarouselImg05 from "@/public/images/oz.png";
 
 // Import Swiper
