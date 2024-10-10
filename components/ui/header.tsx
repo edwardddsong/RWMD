@@ -20,14 +20,14 @@ export default function Header() {
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="/about">
-                  关于我们
+                  关于RWMD
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="/integrations">
-                  RWMD服务
+                  加入RWMD{" "}
                 </Link>
               </li>
 
@@ -42,7 +42,7 @@ export default function Header() {
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/integrations">
+                  href="/real">
                   实战案例
                 </Link>
               </li>

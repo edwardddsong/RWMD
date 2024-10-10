@@ -70,14 +70,14 @@ export default function MobileMenu() {
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
               href="/about">
-              关于我们
+              关于RWMD
             </Link>
           </li>
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
               href="/integrations">
-              RWMD服务
+              加入RWMD
             </Link>
           </li>
 
@@ -91,7 +91,7 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/customers">
+              href="/real">
               实战案例
             </Link>
           </li>

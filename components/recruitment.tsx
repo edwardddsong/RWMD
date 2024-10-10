@@ -111,8 +111,12 @@ export default function Recruitment() {
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
               加入我们
             </h2>
-            <p className="text-lg text-slate-400">
+            <p className="text-lg text-slate-400 mt-3">
               我们是创造者，问题的解决者和故事的讲述者。我们是一支多元化的团队，致力于通过构建各种产品与服务，为客户带来喜悦与满意。
+            </p>
+            <br />
+            <p className="text-lg text-slate-400">
+              如果您满足以下任何条件并且愿意为交易事业付出，欢迎与我们联系
             </p>
           </div>
 
