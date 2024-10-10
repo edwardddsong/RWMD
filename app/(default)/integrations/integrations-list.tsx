@@ -30,39 +30,39 @@ export default function IntegrationsList() {
   const items = [
     {
       img: IntegrationsImg06,
-      name: "Vercel",
+      name: "学习社区",
       description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+        "加入一个充满热情的胜利者社区，与志同道合的交易者共同成长。在一支稳定交易团队的指导下，通过实时分析、独家教学以及经验分享，位您在市场里遨游保驾护航。慢慢积累经验，掌握交易的精髓。",
       link: "/integrations/single-post",
       featured: true,
-      category: "Engineering",
+      category: "加入RWMD TRADING",
     },
     {
       img: IntegrationsImg07,
-      name: "Sentry",
+      name: "交易直播间",
       description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+        "通过访问我们的独家实时直播见，像专业人士一样进行交易。与我们一同感受机构算法交易的魅力，一同盈利。",
       link: "/integrations/single-post",
       featured: false,
-      category: "Engineering",
+      category: "加入RWMD TRADING",
     },
     {
       img: IntegrationsImg04,
-      name: "Jira",
+      name: "RWMD课程",
       description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+        "从小组课程到私人一对一指导，与行业专家一起深入探索金融市场，提升综合分析的技能！",
       link: "/integrations/single-post",
       featured: true,
-      category: "Engineering",
+      category: "加入RWMD TRADING",
     },
     {
       img: IntegrationsImg08,
-      name: "GitHub",
+      name: "免费学习资料",
       description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+        "从市场趋势到交易策略，获取真正有价值的市场信息。不定期免费讲座和直播，剖析价格传递背后的细节，揭示市场机会。",
       link: "/integrations/single-post",
       featured: true,
-      category: "Engineering",
+      category: "加入RWMD TRADING",
     },
     {
       img: IntegrationsImg05,
@@ -71,7 +71,7 @@ export default function IntegrationsList() {
         "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
       link: "/integrations/single-post",
       featured: true,
-      category: "Engineering",
+      category: "加入RWMD TRADING",
     },
     {
       img: IntegrationsImg01,
@@ -80,170 +80,170 @@ export default function IntegrationsList() {
         "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
       link: "/integrations/single-post",
       featured: true,
-      category: "Engineering",
+      category: "加入RWMD TRADING",
     },
-    {
-      img: IntegrationsImg02,
-      name: "Zapier",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "No-code",
-    },
-    {
-      img: IntegrationsImg03,
-      name: "Airtable",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "No-code",
-    },
-    {
-      img: IntegrationsImg09,
-      name: "Framer",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "No-code",
-    },
-    {
-      img: IntegrationsImg10,
-      name: "Jotform",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: false,
-      category: "No-code",
-    },
-    {
-      img: IntegrationsImg11,
-      name: "Webflow",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "No-code",
-    },
-    {
-      img: IntegrationsImg12,
-      name: "Coda",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: false,
-      category: "No-code",
-    },
-    {
-      img: IntegrationsImg13,
-      name: "Asana",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Collaboration",
-    },
-    {
-      img: IntegrationsImg14,
-      name: "Myngo",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Collaboration",
-    },
-    {
-      img: IntegrationsImg15,
-      name: "Bonsai",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Collaboration",
-    },
-    {
-      img: IntegrationsImg16,
-      name: "Decipad",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Collaboration",
-    },
-    {
-      img: IntegrationsImg17,
-      name: "Miro",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Collaboration",
-    },
-    {
-      img: IntegrationsImg18,
-      name: "Popform",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Collaboration",
-    },
-    {
-      img: IntegrationsImg19,
-      name: "Linear",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Productivity",
-    },
-    {
-      img: IntegrationsImg20,
-      name: "Microsoft",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Productivity",
-    },
-    {
-      img: IntegrationsImg21,
-      name: "Google Drive",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Productivity",
-    },
-    {
-      img: IntegrationsImg22,
-      name: "InVision",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Productivity",
-    },
-    {
-      img: IntegrationsImg23,
-      name: "WeTransfer",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: false,
-      category: "Productivity",
-    },
-    {
-      img: IntegrationsImg24,
-      name: "Hotjar",
-      description:
-        "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-      link: "/integrations/single-post",
-      featured: true,
-      category: "Productivity",
-    },
+    // {
+    //   img: IntegrationsImg02,
+    //   name: "Zapier",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "No-code",
+    // },
+    // {
+    //   img: IntegrationsImg03,
+    //   name: "Airtable",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "No-code",
+    // },
+    // {
+    //   img: IntegrationsImg09,
+    //   name: "Framer",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "No-code",
+    // },
+    // {
+    //   img: IntegrationsImg10,
+    //   name: "Jotform",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: false,
+    //   category: "No-code",
+    // },
+    // {
+    //   img: IntegrationsImg11,
+    //   name: "Webflow",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "No-code",
+    // },
+    // {
+    //   img: IntegrationsImg12,
+    //   name: "Coda",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: false,
+    //   category: "No-code",
+    // },
+    // {
+    //   img: IntegrationsImg13,
+    //   name: "Asana",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Collaboration",
+    // },
+    // {
+    //   img: IntegrationsImg14,
+    //   name: "Myngo",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Collaboration",
+    // },
+    // {
+    //   img: IntegrationsImg15,
+    //   name: "Bonsai",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Collaboration",
+    // },
+    // {
+    //   img: IntegrationsImg16,
+    //   name: "Decipad",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Collaboration",
+    // },
+    // {
+    //   img: IntegrationsImg17,
+    //   name: "Miro",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Collaboration",
+    // },
+    // {
+    //   img: IntegrationsImg18,
+    //   name: "Popform",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Collaboration",
+    // },
+    // {
+    //   img: IntegrationsImg19,
+    //   name: "Linear",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Productivity",
+    // },
+    // {
+    //   img: IntegrationsImg20,
+    //   name: "Microsoft",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Productivity",
+    // },
+    // {
+    //   img: IntegrationsImg21,
+    //   name: "Google Drive",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Productivity",
+    // },
+    // {
+    //   img: IntegrationsImg22,
+    //   name: "InVision",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Productivity",
+    // },
+    // {
+    //   img: IntegrationsImg23,
+    //   name: "WeTransfer",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: false,
+    //   category: "Productivity",
+    // },
+    // {
+    //   img: IntegrationsImg24,
+    //   name: "Hotjar",
+    //   description:
+    //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
+    //   link: "/integrations/single-post",
+    //   featured: true,
+    //   category: "Productivity",
+    // },
   ];
 
   return (
@@ -265,7 +265,7 @@ export default function IntegrationsList() {
                     height="16">
                     <path d="m7.7 7.3-5-5c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4L5.6 8l-4.3 4.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3.3 0 .5-.1.7-.3l5-5c.4-.4.4-1 0-1.4ZM8 12h7v2H8z" />
                   </svg>
-                  <span>Engineering</span>
+                  <span>加入RWMD TRADING</span>
                 </a>
               </li>
               <li>
@@ -342,12 +342,12 @@ export default function IntegrationsList() {
               <h3
                 id="engineering"
                 className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
-                Engineering
+                加入RWMD TRADING
               </h3>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {items.map(
                   (item, index) =>
-                    item.category === "Engineering" && (
+                    item.category === "加入RWMD TRADING" && (
                       <IntegrationCard item={item} index={index} />
                     )
                 )}

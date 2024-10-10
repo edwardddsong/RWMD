@@ -24,9 +24,9 @@ export default function Home() {
       <Features03 />
       <TestimonialsCarousel />
       <Features04 />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonials />
-      <Cta />
+      {/* <Cta /> */}
     </>
   );
 }

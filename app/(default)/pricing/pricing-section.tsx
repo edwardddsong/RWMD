@@ -38,7 +38,7 @@ export default function PricingSection() {
               RWMD TRADING
             </div>
             <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              学员反馈
+              客户反馈
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-slate-400">
