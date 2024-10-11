@@ -345,7 +345,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">Sam</div>
+                        <div className="font-bold text-lg mb-1">King</div>
                         <div className="text-slate-400 mb-3">
                           自从认识了z总，我知道了流动性，FVG之类的聪明钱的概念，明白了之前为什么总是被打止损后迅速拉升。现在对市场的有了更清晰的认知！{" "}
                         </div>

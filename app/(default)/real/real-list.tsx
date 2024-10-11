@@ -1,42 +1,40 @@
 import Link from "next/link";
 import Image from "next/image";
 import CustomerImg01 from "@/public/images/customer-01.svg";
-import CustomerBg01 from "@/public/RWMD_learning/bearish_ob.jpg";
+import CustomerBg01 from "@/public/real/RI/20241001_audusd.png";
 import CustomerImg02 from "@/public/images/customer-02.svg";
-import CustomerBg02 from "@/public/RWMD_learning/bullish_ob.jpg";
+import CustomerBg02 from "@/public/real/RI/20241001_gbpus.png";
 import CustomerImg03 from "@/public/images/customer-03.svg";
-import CustomerBg03 from "@/public/RWMD_learning/bearish_fvg.jpg";
+import CustomerBg03 from "@/public/real/RI/20241001_jp225.png";
 import CustomerImg04 from "@/public/images/customer-04.svg";
-import CustomerBg04 from "@/public/RWMD_learning/bullish_fvg.jpg";
+import CustomerBg04 from "@/public/real/RI/20241001_usdcad.png";
 import CustomerImg05 from "@/public/images/customer-05.svg";
-import CustomerBg05 from "@/public/RWMD_learning/bearish_breaker.jpg";
+import CustomerBg05 from "@/public/real/RI/20241001_xauusd.png";
 import CustomerImg06 from "@/public/images/customer-06.svg";
-import CustomerBg06 from "@/public/RWMD_learning/bullish_breaker.jpg";
+import CustomerBg06 from "@/public/real/ED/240813_usdjpy.png";
 import CustomerImg07 from "@/public/images/customer-07.svg";
-import CustomerBg07 from "@/public/RWMD_learning/AMD.jpg";
+import CustomerBg07 from "@/public/real/ED/241001_xauusd2.png";
 import CustomerImg08 from "@/public/images/customer-08.svg";
-import CustomerBg08 from "@/public/RWMD_learning/Dealing Range.jpg";
+import CustomerBg08 from "@/public/real/ED/240910_eurusd.png";
 import CustomerImg09 from "@/public/images/customer-09.svg";
-import CustomerBg09 from "@/public/RWMD_learning/PO3.jpg";
+import CustomerBg09 from "@/public/real/ED/240904_audusd2.png";
 import CustomerImg10 from "@/public/images/customer-10.svg";
-import CustomerBg12 from "@/public/RWMD_learning/Swing Point.jpg";
+import CustomerBg12 from "@/public/real/ED/240903_audusd1.png";
 import CustomerImg11 from "@/public/images/customer-10.svg";
-import CustomerBg11 from "@/public/RWMD_learning/IRL-ERL.jpg";
+import CustomerBg11 from "@/public/real/ED/240829_xauusd.png";
 import CustomerImg12 from "@/public/images/customer-10.svg";
-import CustomerBg10 from "@/public/RWMD_learning/季节性趋势影响.png";
-import CustomerBg13 from "@/public/RWMD_learning/ob1.png";
-import CustomerBg14 from "@/public/RWMD_learning/ob2.png";
-import CustomerBg15 from "@/public/RWMD_learning/ob3.png";
-import CustomerBg16 from "@/public/RWMD_learning/fvg1.png";
-import CustomerBg17 from "@/public/RWMD_learning/fvg2.png";
-import CustomerBg18 from "@/public/RWMD_learning/fvg3.png";
-import CustomerBg19 from "@/public/RWMD_learning/fvg4.png";
+import CustomerBg10 from "@/public/real/ED/240829_eurusd.png";
+import CustomerBg13 from "@/public/real/ED/240822_eurusd.png";
+import CustomerBg14 from "@/public/real/ED/240820_usdjpy.png";
+import CustomerBg15 from "@/public/real/ED/240814_audusd1.png";
+import CustomerBg16 from "@/public/real/ED/240813_xauusd1.png";
+import CustomerBg17 from "@/public/real/ED/240813_xauusd.png";
 import CustomerAvatar01 from "@/public/images/customer-avatar-01.jpg";
 import CustomerAvatar02 from "@/public/images/customer-avatar-02.jpg";
 import Particles from "@/components/particles";
 import Highlighter, { HighlighterItem02 } from "@/components/highlighter";
 
-export default function CustomersList() {
+export default function RealList() {
   const items = [
     {
       name: "Customer name",
@@ -140,23 +138,11 @@ export default function CustomersList() {
       bg: CustomerBg17,
       link: "/customers/single-post",
     },
-    {
-      name: "Customer name",
-      img: CustomerImg12,
-      bg: CustomerBg18,
-      link: "/customers/single-post",
-    },
-    {
-      name: "Customer name",
-      img: CustomerImg12,
-      bg: CustomerBg19,
-      link: "/customers/single-post",
-    },
   ];
 
   return (
     <div className="max-w-[352px] mx-auto sm:max-w-[728px] lg:max-w-none pb-12 md:pb-20">
-      <Highlighter className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+      <Highlighter className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 group [&_*:nth-child(n+5):not(:nth-child(n+12))]:order-1 [&_*:nth-child(n+10):not(:nth-child(n+11))]:!order-2">
         {items.map((item, index) => (
           <div key={index}>
             <a href={item.bg.src} target="_blank">

@@ -6,7 +6,7 @@ export const metadata = {
 import Image from "next/image";
 import Illustration from "@/public/images/page-illustration.svg";
 import Particles from "@/components/particles";
-import CustomersList from "./customers-list";
+import RealList from "./real-list";
 
 export default function Real() {
   return (
@@ -58,7 +58,7 @@ export default function Real() {
               </div>
             </div>
 
-            <CustomersList />
+            <RealList />
           </div>
         </div>
       </section>

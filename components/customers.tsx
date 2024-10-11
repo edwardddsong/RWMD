@@ -1,13 +1,14 @@
 import Image from "next/image";
 import CustomerImg01 from "@/public/images/review1.png";
-import CustomerImg02 from "@/public/images/review2.png";
+import CustomerImg02 from "@/public/images/bbls.png";
 import CustomerImg03 from "@/public/images/review3.png";
-import CustomerImg04 from "@/public/images/review4.png";
-import CustomerImg05 from "@/public/images/review5.png";
-import CustomerImg06 from "@/public/images/review6.png";
-import CustomerImg07 from "@/public/images/review7.png";
-import CustomerImg08 from "@/public/images/review8.png";
-import CustomerImg09 from "@/public/images/review9.png";
+import CustomerImg04 from "@/public/images/fwdxc.png";
+import CustomerImg05 from "@/public/images/oz.png";
+import CustomerImg06 from "@/public/images/sam.png";
+import CustomerImg07 from "@/public/images/shian1.png";
+import CustomerImg08 from "@/public/images/qs.png";
+import CustomerImg09 from "@/public/images/king.png";
+import CustomerImg10 from "@/public/images/austin.png";
 
 export default function Customers() {
   const items = [
@@ -24,8 +25,8 @@ export default function Customers() {
     {
       img: CustomerImg02,
       quote:
-        "在跟随RWMD的学习过程中，我掌握了系统化的交易方法现在已经开始逐渐掌握了交易的节奏",
-      name: "Mike Bryan",
+        "在交易技术和心态上，Z总都非常乐于分享，耐心解答问题；SMC作为交易系统有明确的关注点位，从而做单有所指引，并且可以进一步理解价格行为",
+      name: "巴巴罗萨",
       twitter: {
         handle: "@mike0point7",
         link: "#0",
@@ -44,8 +45,8 @@ export default function Customers() {
     {
       img: CustomerImg04,
       quote:
-        "RWMD的导师经验丰富，课程内容非常接地气，学完对市场的判断力明显提高了，也不再盲目追随热点了。",
-      name: "Jessie Maison",
+        "                          从直播和平时群内的互动中就能深刻体会到赵老师的专业和严谨。无论是短线还是中长线，都可以精准拿捏进出场点位，更重要的是教会了学员如何正确理解这个市场，以及如何在完善风控的同时合理止盈，让大家在这个不确定的市场中尽可能占据主动。总结一句话你是我见过的最靠谱的职业交易员，没有之一。",
+      name: "飞舞的小草",
       twitter: {
         handle: "@jessiem9",
         link: "#0",
@@ -54,8 +55,8 @@ export default function Customers() {
     {
       img: CustomerImg05,
       quote:
-        "RWMD老师教导的学习路径和分析方法特别好用。经过一段时间的学习，我的交易思路变得更加清晰，收益也稳定下来了。",
-      name: "Devani Janssen",
+        "感謝Ed老师開了這一個课程，我三年前開始學習交易有付費的有免費的，結果都是輸多贏少，他們的群組也不活躍一天只有數個留言還要是沒養分的，只能夠自己瞎子摸象自己看書似懂非懂的，但這裡的大佬都很熱心樂於分享讓我發現很多以前沒有聽過的知识",
+      name: "Oswarld",
       twitter: {
         handle: "@deva07p",
         link: "#0",
@@ -64,8 +65,8 @@ export default function Customers() {
     {
       img: CustomerImg06,
       quote:
-        "通过RWMD的学习，我学会了如何合理管理资金和控制风险。导师的指导让我在市场中更加游刃有余。",
-      name: "Mark Gerkules",
+        "                          跟Z總學完SMC真的改變了我對市場的看法，操作邏輯清晰，簡單易懂，感覺每一步都有依據，再也不盲目操作了。策略雖然有效，但裡面主觀判斷挺多的，所以老師的指導特別關鍵，能幫助你規避很多誤區，感覺Z總在這方面還是很清晰的。",
+      name: "Sam",
       twitter: {
         handle: "@mark-gerk",
         link: "#0",
@@ -74,8 +75,8 @@ export default function Customers() {
     {
       img: CustomerImg07,
       quote:
-        "在RWMD的学习让我改变了以前冲动交易的习惯，现在每一步都有据可依。导师的建议总是精准到位，让我避免了很多亏损。",
-      name: "Andrey Propenk",
+        "在z总教导的SMC策略中，身为初学者的我学到了很多，也得到了极大的帮助。z总专业精神和热情使我在交易成长之路更加顺利。感谢z总对我的帮助。谢谢",
+      name: "Shian",
       twitter: {
         handle: "@andrey-prok",
         link: "#0",
@@ -84,8 +85,8 @@ export default function Customers() {
     {
       img: CustomerImg08,
       quote:
-        "RWMD的导师讲课深入浅出，很多以前觉得难懂的概念现在都变得清晰了。通过他们的指导，我已经找到了适合自己的交易方式，收益越来越稳定。",
-      name: "龙行天下",
+        " 感谢Z哥的邀请，也非常感谢Z哥SMC的指点，我从SMC小白到通过考核，到目前盈利的状态，都是Z哥在我瓶颈的时候指点，才会那么大的改变；交易的道路还很长，路上有Z哥大佬级别的帮助，我想会轻松很多。希望未来能在顶峰相见。由衷感谢Z哥！",
+      name: "青山",
       twitter: {
         handle: "@masterpro",
         link: "#0",
@@ -94,8 +95,19 @@ export default function Customers() {
     {
       img: CustomerImg09,
       quote:
-        "Z很专业，课程设计也很合理，适合我们这些零基础的学员。跟着他们一步步学习，我从什么都不懂到现在能独立做交易，真的收获满满。",
-      name: "Steve Wolf",
+        "自从认识了z总，我知道了流动性，FVG之类的聪明钱的概念，明白了之前为什么总是被打止损后迅速拉升。现在对市场的有了更清晰的认知！",
+      name: "King",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+
+    {
+      img: CustomerImg10,
+      quote:
+        "在接触smc后  觉得这策略比我之前当散户的策略要精准  使用smc后心态会比散户会强一些  需要多加练习心态着方面  同时有一个好老师教也是必不可少的   z总就很有耐心的教 我学的也很快   遇到不懂的问题也能互相交流  希望之后能成为一名操盘手",
+      name: "Austin",
       twitter: {
         handle: "@imsteve",
         link: "#0",
