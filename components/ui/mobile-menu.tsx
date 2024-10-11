@@ -77,7 +77,7 @@ export default function MobileMenu() {
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
               href="/join">
-              加入RWMD
+              RWMD服务
             </Link>
           </li>
 

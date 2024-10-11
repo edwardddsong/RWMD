@@ -342,7 +342,7 @@ export default function IntegrationsList() {
               <h3
                 id="engineering"
                 className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
-                加入RWMD TRADING
+                RWMD服务
               </h3>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {items.map(

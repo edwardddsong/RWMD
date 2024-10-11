@@ -57,7 +57,7 @@ export default function IntegrationsSection() {
               RWMD机构算法交易
             </div>
             <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              加入RWMD
+              RWMD服务
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg text-slate-400">
@@ -66,7 +66,7 @@ export default function IntegrationsSection() {
             </div>
           </div>
 
-          <IntegrationsCarousel />
+          {/* <IntegrationsCarousel /> */}
         </div>
       </div>
     </section>

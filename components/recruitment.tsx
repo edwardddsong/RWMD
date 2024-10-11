@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Recruitment01 from "@/public/images/recruitment-01.jpg";
-import Recruitment02 from "@/public/images/recruitment-02.jpg";
-import Recruitment03 from "@/public/images/recruitment-03.jpg";
+import Recruitment02 from "@/public/images/code-02.jpg";
+import Recruitment03 from "@/public/images/code-03.jpg";
 import Recruitment04 from "@/public/images/recruitment-04.jpg";
 
 interface Item {
@@ -117,6 +117,11 @@ export default function Recruitment() {
             <br />
             <p className="text-lg text-slate-400">
               如果您满足以下任何条件并且愿意为交易事业付出，欢迎与我们联系
+              <br />
+              <br />
+              微信联系：richzc4357
+              <br />
+              邮箱：richzc4357@gmail.com
             </p>
           </div>
 
@@ -195,14 +200,14 @@ export default function Recruitment() {
             alt="Recruitment 01"
           />
           <Image
-            className="w-full aspect-[16/10] object-cover rounded-lg"
+            className="w-full h-auto object-cover rounded-lg"
             src={Recruitment02}
             width={352}
             height={220}
             alt="Recruitment 02"
           />
           <Image
-            className="w-full aspect-[16/10] object-cover rounded-lg"
+            className="w-full h-auto object-cover rounded-lg"
             src={Recruitment03}
             width={352}
             height={220}
