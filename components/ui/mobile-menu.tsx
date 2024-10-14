@@ -109,6 +109,13 @@ export default function MobileMenu() {
               每周分析
             </Link>
           </li>
+          <li>
+            <Link
+              className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
+              href="/livelog">
+              直播回放
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

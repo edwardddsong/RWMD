@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Recruitment01 from "@/public/images/recruitment-01.jpg";
+import Recruitment01 from "@/public/images/code01.jpg";
 import Recruitment02 from "@/public/images/code-02.jpg";
 import Recruitment03 from "@/public/images/code-03.jpg";
-import Recruitment04 from "@/public/images/recruitment-04.jpg";
+import Recruitment04 from "@/public/images/b_code.jpg";
 
 interface Item {
   area: string;
@@ -193,7 +193,7 @@ export default function Recruitment() {
       <div className="max-w-[1440px] mx-auto px-4 md:px-0">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 md:-mx-5">
           <Image
-            className="w-full aspect-[16/10] object-cover rounded-lg"
+            className="w-full h-auto object-cover rounded-lg"
             src={Recruitment01}
             width={352}
             height={220}
@@ -214,7 +214,7 @@ export default function Recruitment() {
             alt="Recruitment 03"
           />
           <Image
-            className="w-full aspect-[16/10] object-cover rounded-lg"
+            className="w-full h-auto object-cover rounded-lg"
             src={Recruitment04}
             width={352}
             height={220}

@@ -56,6 +56,13 @@ export default function Header() {
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
+                  href="/livelog">
+                  直播回放
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
                   href="/pricing">
                   客户感言
                 </Link>

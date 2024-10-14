@@ -251,12 +251,12 @@ export default function IntegrationsList() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           {/* Tobpabr */}
-          <div className="flex justify-between items-center py-6 border-b [border-image:linear-gradient(to_right,transparent,theme(colors.slate.800),transparent)1] space-x-8 overflow-x-scroll no-scrollbar">
+          <div className="flex justify-between items-center py-6 border-b [border-image:linear-gradient(to_right,transparent,theme(colors.slate.800),transparent)1] space-x-8  no-scrollbar">
             {/* Links */}
-            <ul className="flex flex-nowrap text-sm font-medium space-x-8">
+            <ul className="flex flex-wrap text-sm font-medium space-x-8 ">
               <li>
                 <a
-                  className="flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
                   href="#engineering">
                   <svg
                     className="fill-slate-500"
@@ -265,40 +265,42 @@ export default function IntegrationsList() {
                     height="16">
                     <path d="m7.7 7.3-5-5c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4L5.6 8l-4.3 4.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3.3 0 .5-.1.7-.3l5-5c.4-.4.4-1 0-1.4ZM8 12h7v2H8z" />
                   </svg>
-                  <span>加入RWMD TRADING</span>
+                  <span>RWMD服务</span>
                 </a>
               </li>
               <li>
                 <a
-                  className="flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
                   href="#nocode">
                   <svg
                     className="fill-slate-500"
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16">
-                    <path d="M10 15c-.4 0-.8-.3-.9-.7L5.8 4.6 3.9 8.4c-.2.4-.5.6-.9.6H0V7h2.4l2.7-5.4c.2-.4.6-.6 1-.6s.7.3.9.7l3.2 9.7 1.9-3.8c.2-.4.5-.6.9-.6h3v2h-2.4l-2.7 5.4c-.2.4-.5.6-.9.6Z" />
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
                   </svg>
-                  <span>交易心得分享(一)</span>
+                  <span>全职交易14年的感悟</span>
                 </a>
               </li>
               <li>
                 <a
-                  className="flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
                   href="#collaboration">
                   <svg
                     className="fill-slate-500"
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16">
-                    <path d="M7.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0ZM7.3 15.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0ZM.3 10.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0Z" />
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
                   </svg>
-                  <span>交易心得分享(二)</span>
+                  <span>交易中的执行力与等待的重要性</span>
                 </a>
               </li>
               <li>
                 <a
-                  className="flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
                   href="#productivity">
                   <svg
                     className="fill-slate-500"
@@ -308,7 +310,127 @@ export default function IntegrationsList() {
                     <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
                     <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
                   </svg>
-                  <span>交易心得分享(三)</span>
+                  <span>交易员的“自省”到“自治”</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-4">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>交易员的资金管理</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-5">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>交易心理优势，拒绝心态内耗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-6">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>计划你的交易，交易你的计划</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-7">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>短线（超短线）交易等于频繁交易吗？</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className=" mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-8">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>交易计划三部曲</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className=" mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-9">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>交易系统构建之交易风格</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className=" mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-10">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>成熟交易员与初级交易员的区别</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  className=" mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
+                  href="#share-11">
+                  <svg
+                    className="fill-slate-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16">
+                    <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z" />
+                    <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z" />
+                  </svg>
+                  <span>成熟交易员与初级交易员的区别</span>
                 </a>
               </li>
             </ul>
@@ -368,6 +490,9 @@ export default function IntegrationsList() {
                     )
                 )} */}
                 <p>
+                  <strong className="text-xl">全职交易14年的感悟</strong>
+                  <br />
+                  <br />
                   随着全职交易经历进入第14个年头，身边不少朋友对这条路充满了好奇和向往，也希望从我这里获得一些建议。因此，我特意抽出一个下午，将这些心得整理出来，分享给大家。希望对正在考虑走上全职交易路的朋友们有所帮助。
                   <br />
                   <br />
@@ -413,7 +538,9 @@ export default function IntegrationsList() {
                     )
                 )} */}
                 <p>
-                  <strong>交易中的执行力与等待的重要性</strong>
+                  <strong className="text-xl">
+                    交易中的执行力与等待的重要性
+                  </strong>
                   <br />
                   <br />
                   大家好，今天我想和大家分享一下，在职业交易中“执行力”和“等待”对成功的重要性。在我的职业生涯中，这两点的认知和执行力的提升为我带来了巨大的利润。
@@ -451,6 +578,11 @@ export default function IntegrationsList() {
                     )
                 )} */}
                 <p>
+                  <strong className="text-xl">
+                    成熟交易员与初级交易员的区别
+                  </strong>{" "}
+                  <br />
+                  <br />
                   我个人认为，那些仍需依赖常规工作的交易员，大多还处于初级阶段。这些交易员的交易系统尚未完全成熟，因此他们必须通过工作来维持生活。
                   <br />
                   <br />
@@ -467,6 +599,385 @@ export default function IntegrationsList() {
                   <br />
                   <br />
                   尽管外界看到的职业交易员风光无限，但他们和普通人一样，背后也付出了大量的时间、精力和汗水。交易不仅是一项技术，更是一种修行，需要长期的专注与坚持。
+                </p>
+                <p className="text-right">—— RWMD ED</p>
+              </div>
+            </div>
+
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-4"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（四）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">交易员的周末</strong> <br />
+                  <br />
+                  大家好，最近很多朋友问我一个问题：你们这些成熟交易员，周末都做些什么？是不是特别潇洒？每周看到盈利总结时，会不会有强烈的消费欲望？
+                  <br />
+                  <br />
+                  对此，我想负责任地告诉大家，我们的生活和其他工作群体没什么不同。周末，我们通常会做一些让身心放松的事情，比如钓鱼、朋友小聚、打球、健身等。我认为，交易员一定要有个人的兴趣爱好。因为周一到周五，我们都处于高强度的专注和紧张状态，周末就是调整自己、为下一周做好准备的关键时刻。
+                  <br />
+                  <br />
+                  不过，除了放松之外，我周末的一个重要习惯就是**复盘**。我简单总结了两个复盘方式：{" "}
+                  <br />
+                  <br />
+                  1. 数据复盘：
+                  你需要把每周的交易数据统计下来，分析自己每天做了多少笔交易、持仓时间是多长、盈利持仓的时间和亏损持仓的时间分别是多少。这些数据非常重要，因为它可以反映你所有的交易行为。例如，对于日内短线交易者，如果盈利持仓时间短于亏损持仓时间，就说明亏损单持有太久了，这时数据告诉你需要改进，应该让盈利持仓时间大于亏损时间。数据还可以帮你分析盈亏比，是否可以通过优化进场和出场来提高盈亏比。
+                  <br />
+                  <br />
+                  2. 录像复盘：
+                  现在有很多软件可以帮助你录制和回顾交易。把一周的交易单都导入图表，无论是盈利单还是亏损单，都要反复问自己：为什么在这里开单？依据是什么？这个开单依据是否符合我的交易系统？这非常重要。即使有些盈利单并不符合交易系统，只是运气好，那也要警惕。不要让短暂的运气左右你的判断。不断总结、完善自己的交易系统，才能经受住市场的考验。随着系统的成熟，你也会更加自信——但切记，自信不是自傲，仍然要心存敬畏。
+                  <br />
+                  <br />
+                  今天就分享到这里，祝大家度过一个愉快的周末！ <br />
+                </p>
+                <p className="text-right">—— RWMD Nan</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-5"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（五）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">交易员的“自省”到“自治”</strong>{" "}
+                  <br />
+                  <br />
+                  从初级到职业交易员：自省到自治的进阶之路
+                  <br />
+                  <br />
+                  今天，我想和大家分享一下，我在从初级交易员向职业交易员转变的过程中，对“自省”到“自治”的理解。
+                  在职业生涯中，我时刻提醒自己要克制，避免盲目进入市场的冲动。在不断进阶的过程中，我给自己提出了“四自”的要求：自省、自知、自律和自治。
+                  <br />
+                  <br />
+                  1. 自省与自知：认识自己是成功的起点 <br />
+                  在每次交易之前，最重要的事情是自我审视和认识自己。首先，要明确自己是哪类人，要有清晰的自知之明。如果不了解自我，盲目进入市场，那无异于“送”。如何做到自知呢？关键在于认清自己的性格，这一点在交易中尤为重要。性格往往决定了你是适合做日内交易，还是趋势交易。例如，有些人天生喜欢迅速决策，适合短线操作；而有些人更有耐心，适合长期布局。
+                  <br />
+                  <br />
+                  2. 自律：交易中的情绪与纪律
+                  <br />
+                  当你明确了自我认知，并构建了自己的交易系统后，下一步便是遵守和执行它，这就是自律。在交易中，亏损是不可避免的，而情绪化是导致亏损的主要原因之一。无论是短线操作还是中长线布局，当交易成功率低于预期时，很多人会情绪失控，随之而来的就是不断的亏损。真正的自律，就是在情绪波动时依然能够按既定策略行事，避免因短期波动而偏离长期目标。
+                  <br />
+                  <br />
+                  3. 自治：知行合一
+                  <br />
+                  最后，自治可以理解为知行合一。市场瞬息万变，交易员个人也在不断成长。交易系统的构建与交易规则的执行都是在不断试错、修正、再试的循环过程中逐步完善的。这也是自省、自知、自律的反复过程。交易的常态是变化，在这个过程中，交易理念和交易系统必须保持一致。只有当个人的交易体系与规则紧密结合时，自治才真正具备可行性。{" "}
+                  <br />
+                  <br />
+                </p>
+                <p className="text-right">—— RWMD Z</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-6"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（六）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">交易员的资金管理</strong> <br />
+                  <br />
+                  资金管理：交易成功的助推器
+                  <br />
+                  <br />
+                  对于一名成熟的交易者来说，资金管理是交易过程中的重要环节，甚至可以比作“火箭的助推器”。一旦交易者建立了可靠的交易系统，并养成了良好的交易行为习惯，再配合合理的资金管理方式，就能够看到显著的业绩提升。
+                  我将资金管理大致分为两种模式：固定仓位管理和固定金额管理。
+                  <br />
+                  <br />
+                  1. 固定仓位管理
+                  <br />
+                  固定仓位管理是不考虑交易品种波动率的。它的核心在于每次建仓的仓位是恒定的，不论品种的波动大小。这样做的风险在于：如果你在波动率较小的品种中获利，而在波动率较大的品种中亏损，总体上你可能会面临浮亏。这种管理方式忽视了波动率差异，可能导致在高波动市场中遭受较大损失，而你在低波动市场中所赚取的利润无法弥补亏损。
+                  <br />
+                  <br />
+                  2. 固定金额管理
+                  <br />
+                  相比之下，固定金额管理更具科学性和灵活性。其核心是根据每笔交易的止损金额来决定仓位大小。这种方法允许你更好地控制风险，因为它根据具体的止损点位进行仓位调整。对于专业交易者或系统交易者来说，固定金额管理能够最大化发挥交易系统的效用。
+                  <br />
+                  <br />
+                  假设你使用固定仓位管理，不论是何种品种，你在高波动的市场中可能会损失一大笔，而为了弥补这笔损失，你需要在低波动的市场中做出多次盈利交易，这往往会增加交易压力和难度。因此，即便是相同的交易策略、相同的进场点和相同的市场条件，采用固定仓位和固定金额管理模式会带来完全不同的资金曲线表现。
+                  <br />
+                  <br />
+                  这两种管理方式的区别非常明显，适合不同的交易风格和市场条件。对于喜爱交易的朋友们，我建议在实际交易过程中，仔细思考并找到最适合自己风格的资金管理模式。有效的资金管理不仅能帮助你控制风险，还能推动你的账户稳步增长。{" "}
+                </p>
+                <p className="text-right">—— RWMD Nan</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-7"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（七）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">
+                    交易心理优势，拒绝心态内耗
+                  </strong>{" "}
+                  <br />
+                  <br />
+                  新的一周开始，今天我想和大家分享一下交易员的心态。刚入行时，有位前辈对我说：“交易做到最后拼的就是心性。”可见，交易心理在整个交易生涯中的决定性作用。{" "}
+                  <br />
+                  <br />
+                  1. 交易心态 <br />
+                  交易心态包括情绪，尤其是情绪化交易，它会短期内影响我们的决策，长期下来可能导致失败。情绪是交易员的正常反应，但我们要学会控制情绪，而不是试图完全消除它。关键在于让情绪不影响决策。例如，每当想做决定时，我会停下来看看自己的交易规则，问自己：“我是因为情绪在进场，还是基于理性分析？”不断提醒自己，可以有效减少不理性的交易行为。
+                  <br />
+                  <br />
+                  2. 对自我交易系统的认知
+                  <br />
+                  执行自己的交易系统，标志着交易生涯的真正开始。然而，执行并不容易，常常会遇到纠结、恐慌和犹豫。这往往是因为对自己的系统了解不够深入。你需要问自己：有没有长期测试过系统？有没有进行数据统计？在实践中遇到过不同的市场情况吗？投入时间和精力去理解和完善你的系统，这一点非常重要。
+                  <br />
+                  <br />
+                  3. 心理内耗
+                  <br />
+                  交易中，拒绝心理内耗至关重要。要成为专业交易者，思维必须简单、直接、有效。许多交易者常常陷入自我怀疑，比如“我是不是不适合交易？”、“我的系统是不是不好，要不要换？”、“如果资金变大，市场还能承受吗？”
+                  不要纠结于这些问题。做出简单有效的回应，避免过度思考。
+                  <br />
+                  <br />
+                  总结
+                  <br />
+                  真正的交易者需要面对各种情况，提前制定应对方案，做到心中有数。当交易者在心态上保持平稳和坚定时，就拥有了交易心理上的优势，这种“基石”来自于你的技术、经验、认知以及交易系统。
+                  希望今天的分享能为交易爱好者们带来启发。祝大家交易顺利。
+                </p>
+                <p className="text-right">—— RWMD Ed</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-8"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（八）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">
+                    计划你的交易，交易你的计划
+                  </strong>{" "}
+                  <br />
+                  <br />
+                  计划你的交易 <br />
+                  <br />
+                  新的一周开始了，有朋友问我对某个品种是看多还是看空。其实，交易的核心在于执行自己的交易体系。我们的交易流程是从寻找市场的主力运行方向开始，然后顺势而为，在趋势中关注未来可能出现的交易机会。如果机会出现，并且符合我的交易体系，我会果断进场；反之，如果机会不符合我的交易条件和体系，我会选择观望。
+                  比如，如果我对某个品种有很强的看空或看多偏见，我可以按照这个方向进行交易，并设好止损。听起来没有问题，但关键在于，这种“偏见”是主观的还是客观的。如果偏见来源于从大级别到小级别的逐层分析，属于客观理性分析；而如果仅凭猜测或主观判断，那交易很可能会出现偏差，导致亏损。因此，我的小建议是，在市场走势较为缓慢或在周末复盘时，仔细分析盘面，结合自己的交易体系，找出关键位置和区间。等到开盘后，通过市场价格表现来判断是否可以进场。
+                  <br />
+                  <br />
+                  交易你的计划 <br />
+                  <br />
+                  市场上有很多交易系统，比如“聪明钱理论”、“支撑阻力线分析”、“形态交易”等等。无论你使用哪一种，没有任何一个交易系统是完美的。重要的是找到适合自己的系统，经过反复测试和数据统计，确保它能稳定盈利。在制定了交易计划后，下一步就是严格执行。当价格表现符合你设定的交易条件时，果断行动即可。
+                  <br />
+                  <br />
+                  培养良好的习惯 <br />
+                  <br />
+                  最后，建议大家养成制定交易计划的习惯。有计划的交易可以有效避免频繁交易、盲目交易等问题。希望大家交易顺利！{" "}
+                </p>
+                <p className="text-right">—— RWMD ED</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-9"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（九）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">
+                    短线（超短线）交易等于频繁交易吗？
+                  </strong>{" "}
+                  <br />
+                  <br />
+                  大家好，今天我们来聊一聊短线交易，包括超短线交易，是否算作频繁交易。昨天有一位朋友带着当天的交易记录找我，毫不意外，他的结果是亏损的。他希望我能提供一些建议，帮助他改善交易表现。通过与他的交谈，我找到了他亏损单多于盈利单的几个原因。
+                  <br />
+                  <br />
+                  1. 短线交易的好处
+                  <br />
+                  <br />
+                  首先，短线交易的好处之一就是交易机会多。机会的多少取决于个人的交易周期。日内交易者可以反复抓住进场时机，超短线交易更是以1分钟周期为主，充满无数的形态变化。如果你是这种类型的交易者，可能会觉得很过瘾——只要打开电脑就能找到形态的变化，随时进场，保持交易的兴奋感和不无聊的状态。这个“不无聊”的心理需求，对很多交易者来说也是非常重要的。
+                  此外，短线交易的止损位通常距离进场位较小，这意味着你能将亏损控制在可承受的范围内，盈亏比能够最大化。盈利时，你可以迅速把止损上推至保本位，即使被打到也不会亏钱。这种交易模式会给交易者带来心理上的满足感，并增强他们的信心和成就感。
+                  <br />
+                  <br />
+                  2. 短线交易等于频繁交易吗？
+                  <br />
+                  <br />
+                  这是关键问题。在我的认知里，短线和超短线确实容易成为频繁交易的一部分。如果一个交易者在日内下了20单甚至更多，如果盈利，当然会觉得非常畅快。但如果是亏损的情况，就非常容易导致情绪失控。
+                  为什么这么说呢？当你不断亏损时，尽管每次的止损很小，但积少成多，最终会严重影响心态。这时很多人会有一个很危险的想法：“再做一单，我要把前面的亏损全部赚回来。”一旦有这样的情绪出现，我建议立即停止交易，离开盘面冷静一下。你需要优先考虑的是，进场点位是否符合自己的交易条件？情绪化交易往往是频繁交易的源头，当情绪失控时，任何交易系统和交易条件都会被忽视，导致亏损加剧。
+                  <br />
+                  <br />
+                  希望我的分享能给大家一些启发。愿大家找到适合自己的高胜率交易系统，保持理性，避免情绪化和频繁交易，祝大家交易顺利！
+                </p>
+                <p className="text-right">—— RWMD ED</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-10"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（十）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">交易计划三部曲</strong> <br />
+                  <br />
+                  交易前准备优化：
+                  <br />
+                  选择交易品种
+                  <br />
+                  确定当天交易的市场与品种，关注波动性和流动性，结合自身熟悉度和当前市场情绪进行选择。
+                  <br />
+                  <br />
+                  *仓位管理
+                  <br />
+                  根据风险承受能力设置仓位，每笔交易的风险控制在总资本的1%-2%，避免过度杠杆。根据市场波动率和风险容忍度，设定合理的止损与止盈位置，确保盈亏比达到1:2或更高。
+                  <br />
+                  <br />
+                  *关注重要经济数据和新闻事件
+                  <br />
+                  查看日历上是否有重要的经济数据发布或政策新闻，尤其是影响较大的数据（如GDP、就业报告、央行政策等），并预估其对市场的潜在波动影响。
+                  <br />
+                  <br />
+                  *技术面分析
+                  <br />
+                  在图表上标注重要的支撑位、压力位和关键区域（如日线、周线或月线的关键点位）。确认趋势和可能的入场、出场点，确保在交易时能够快速做出反应。
+                  <br />
+                  <br />
+                  *止盈止损设置
+                  <br />
+                  根据技术分析和市场情绪合理设定止盈和止损，确保盈亏比至少为1:2。在市场波动较大的情况下，适时调整止损位置，但切勿随意拖动止损位或不设止损，避免让亏损扩大。
+                  <br />
+                  <br />
+                  交易纪律与心态管理：
+                  <br />
+                  *严格执行交易计划
+                  <br />
+                  每一笔交易都应当严格遵守计划，不要让情绪左右决策。坚持计划中的仓位、止盈、止损等关键参数，避免在行情波动时做出冲动决策。
+                  <br />
+                  <br />
+                  *避免重仓与扛单
+                  <br />
+                  交易时保持理智，避免过度重仓，不要因一时市场波动而扛单或随意加仓，尤其是在逆势时。
+                  <br />
+                  <br />
+                  *避免盲目抄底抄顶
+                  <br />
+                  尽量避免猜测市场的顶或底，而是基于趋势确认后再进行交易，避免在市场剧烈波动时贸然进场。
+                  <br />
+                  <br />
+                  交易后的复盘与总结
+                  <br />
+                  *每日复盘与总结
+                  <br />
+                  每晚复盘当天的交易，分析盈利和亏损的原因，总结出是否遵循了计划，哪些地方可以优化。在复盘过程中，可以考虑记录情绪的变化、外部因素的干扰等，全面提升交易过程中的自我认知。
+                  <br />
+                  <br />
+                  *优化进出场条件
+                  <br />
+                  通过复盘优化入场与出场的信号，调整不合理的策略。不断学习和迭代是提高交易水平的关键。
+                  <br />
+                  <br />
+                  *心态与学习
+                  <br />
+                  交易不仅仅是技术的博弈，更是心理的考验。保持谦虚、学习的心态，认识到市场是动态的，需要不断调整和适应。每一笔交易都是学习和积累的机会，不论输赢，都是成长的一部分。
+                  祝愿你在交易中保持冷静理智，满载而归！
+                </p>
+                <p className="text-right">—— RWMD ED</p>
+              </div>
+            </div>
+            <div className="mt-12 md:mt-16">
+              <h3
+                id="share-11"
+                className="scroll-mt-8 text-2xl font-bold inline-flex bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-8">
+                交易心得分享（十一）
+              </h3>
+              <div className="grid gap-6 ">
+                {/* {items.map(
+                  (item, index) =>
+                    item.category === "Collaboration" && (
+                      <IntegrationCard item={item} index={index} />
+                    )
+                )} */}
+                <p>
+                  <strong className="text-xl">交易系统构建之交易风格</strong>{" "}
+                  <br />
+                  <br />
+                  大家好，又到了一周的最后一个交易日，今天我跟大家分享的内容是交易系统的构建，在前几期内容中一直提到交易系统这个词，也反复强调了建立交易系统的重要性，要找到合适自身的，但很多交易者不知道怎么去建构。那我们开始，建立一个体系其实就是建立一个属于自己的交易世界，我们在建构的世界里面去进行交易，也就是说找到自身最熟悉的领域和范畴中，找到一种属于你的获利方式然后不断的精深做到极致。
+                  <br />
+                  <br />
+                  建立交易系统的四个关键步骤：
+                  <br />
+                  确定交易周期：
+                  <br />
+                  长线交易：周期通常以4小时以上为基准，持仓周期可能持续数周甚至更长时间，适合有耐心且愿意等待长期趋势的交易者。
+                  <br />
+                  短线交易：常用5分钟或15分钟图，通常在当天内完成交易，更适合快速进出市场的交易者。
+                  <br />
+                  <br />
+                  **确定交易风格：
+                  <br />
+                  跟踪型交易者：明确止盈位置，价格达到设定目标时果断离场。
+                  <br />
+                  波段交易者：在更大的止盈区间操作，不一定在某一具体点位了结。
+                  <br />
+                  <br />
+                  **趋势交易 vs. 震荡交易：
+                  <br />
+                  趋势交易者：顺应趋势，例如在上涨趋势中只做多单，坚决避免逆势操作。
+                  <br />
+                  震荡交易者：寻找市场反转机会，倾向于在趋势结束或行情进入区间震荡时进行反向操作。
+                  <br />
+                  <br />
+                  **进场方式：
+                  <br />
+                  左侧交易：在价格触及你认为合适的进场位置时果断进入，止损位较小，盈亏比高。
+                  <br />
+                  右侧交易：等待趋势拐点明确后再进场，止损位相对较大，盈亏比相对较低。
+                  <br />
+                  希望今天的分享能给你带来帮助和新的理解，提前祝大家周末快乐、交易顺利！
                 </p>
                 <p className="text-right">—— RWMD ED</p>
               </div>
