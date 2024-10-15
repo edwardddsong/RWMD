@@ -33,7 +33,7 @@ export default function IntegrationsList() {
       name: "学习社区",
       description:
         "加入一个充满热情的胜利者社区，与志同道合的交易者共同成长。在一支稳定交易团队的指导下，通过实时分析、独家教学以及经验分享，位您在市场里遨游保驾护航。慢慢积累经验，掌握交易的精髓。",
-      link: "/integrations/single-post",
+      link: "/",
       featured: true,
       category: "加入RWMD TRADING",
     },
@@ -41,8 +41,8 @@ export default function IntegrationsList() {
       img: IntegrationsImg07,
       name: "交易直播间",
       description:
-        "通过访问我们的独家实时直播见，像专业人士一样进行交易。与我们一同感受机构算法交易的魅力，一同盈利。",
-      link: "/integrations/single-post",
+        "通过访问我们的独家实时直播间，像专业人士一样进行交易。与我们一同感受机构算法交易的魅力，一同盈利。",
+      link: "/",
       featured: false,
       category: "加入RWMD TRADING",
     },
@@ -51,7 +51,7 @@ export default function IntegrationsList() {
       name: "RWMD课程",
       description:
         "从小组课程到私人一对一指导，与行业专家一起深入探索金融市场，提升综合分析的技能！",
-      link: "/integrations/single-post",
+      link: "/",
       featured: true,
       category: "加入RWMD TRADING",
     },
@@ -60,7 +60,7 @@ export default function IntegrationsList() {
       name: "免费学习资料",
       description:
         "从市场趋势到交易策略，获取真正有价值的市场信息。不定期免费讲座和直播，剖析价格传递背后的细节，揭示市场机会。",
-      link: "/integrations/single-post",
+      link: "/",
       featured: true,
       category: "加入RWMD TRADING",
     },
@@ -69,7 +69,7 @@ export default function IntegrationsList() {
       name: "RWMD周日定期会员直播",
       description:
         "每周日北京时间 20:30为您带来上周交易拆解，盘面详解以及下周盘面预期和答疑",
-      link: "/integrations/single-post",
+      link: "/",
       featured: true,
       category: "加入RWMD TRADING",
     },
@@ -78,7 +78,7 @@ export default function IntegrationsList() {
       name: "RWMD周日不定期公开直播",
       description:
         "给客户充足的体验，在您加入之前让您了解我们的课程以及服务是高价值高质量的。",
-      link: "/integrations/single-post",
+      link: "/",
       featured: true,
       category: "加入RWMD TRADING",
     },
@@ -87,7 +87,7 @@ export default function IntegrationsList() {
     //   name: "Zapier",
     //   description:
     //     "RWMD makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.",
-    //   link: "/integrations/single-post",
+    //   link: "/",
     //   featured: true,
     //   category: "No-code",
     // },
@@ -254,7 +254,7 @@ export default function IntegrationsList() {
           <div className="flex justify-between items-center py-6 border-b [border-image:linear-gradient(to_right,transparent,theme(colors.slate.800),transparent)1] space-x-8  no-scrollbar">
             {/* Links */}
             <ul className="flex flex-wrap text-sm font-medium space-x-8 ">
-              <li>
+              {/* <li>
                 <a
                   className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
                   href="#engineering">
@@ -267,7 +267,7 @@ export default function IntegrationsList() {
                   </svg>
                   <span>RWMD服务</span>
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   className="mt-3 flex items-center text-slate-50 hover:text-white whitespace-nowrap transition-colors space-x-2"
@@ -1021,11 +1021,9 @@ export function IntegrationCard({ item, index }: CardProps) {
               />
             )}
           </div>
-          <Link
-            className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0"
-            href={item.link}>
+          <p className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 group-hover:before:absolute group-hover:before:inset-0">
             {item.name}
-          </Link>
+          </p>
         </div>
         <div className="grow">
           <div className="text-sm text-slate-400">{item.description}</div>

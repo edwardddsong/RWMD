@@ -22,7 +22,7 @@ export default function PostItem({ ...props }) {
           <figure className="bg-gradient-to-b to-transparent rounded-3xl p-px mb-8">
             {/* 点击图片跳转到新标签页 */}
             <a
-              href={props.metadata.image0}
+              href={props.metadata.link}
               target="_blank"
               rel="noopener noreferrer">
               <Image
@@ -34,36 +34,7 @@ export default function PostItem({ ...props }) {
               />
             </a>
           </figure>
-          <figure className="bg-gradient-to-b to-transparent rounded-3xl p-px mb-8">
-            {/* 点击图片跳转到新标签页 */}
-            <a
-              href={props.metadata.image1}
-              target="_blank"
-              rel="noopener noreferrer">
-              <Image
-                className="w-full rounded-[inherit] cursor-pointer"
-                src={props.metadata.image1}
-                width={574}
-                height={326}
-                alt={props.metadata.title}
-              />
-            </a>
-          </figure>
-          <figure className="bg-gradient-to-b to-transparent rounded-3xl p-px mb-8">
-            {/* 点击图片跳转到新标签页 */}
-            <a
-              href={props.metadata.image2}
-              target="_blank"
-              rel="noopener noreferrer">
-              <Image
-                className="w-full rounded-[inherit] cursor-pointer"
-                src={props.metadata.image2}
-                width={574}
-                height={326}
-                alt={props.metadata.title}
-              />
-            </a>
-          </figure>
+
           <div className="prose max-w-none text-slate-400 prose-p:leading-relaxed prose-a:text-purple-500 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-50 prose-strong:font-medium">
             <CustomMDX code={props.content} />
           </div>

@@ -29,6 +29,7 @@ import CustomerBg14 from "@/public/real/ED/240820_usdjpy.png";
 import CustomerBg15 from "@/public/real/ED/240814_audusd1.png";
 import CustomerBg16 from "@/public/real/ED/240813_xauusd1.png";
 import CustomerBg17 from "@/public/real/ED/240813_xauusd.png";
+import CustomerBg18 from "@/public/real/RI/20241013xauusd.png";
 import CustomerAvatar01 from "@/public/images/customer-avatar-01.jpg";
 import CustomerAvatar02 from "@/public/images/customer-avatar-02.jpg";
 import Particles from "@/components/particles";
@@ -136,6 +137,12 @@ export default function RealList() {
       name: "Customer name",
       img: CustomerImg12,
       bg: CustomerBg17,
+      link: "/customers/single-post",
+    },
+    {
+      name: "Customer name",
+      img: CustomerImg12,
+      bg: CustomerBg18,
       link: "/customers/single-post",
     },
   ];

@@ -50,3 +50,6 @@ function getMDXData(dir: string) {
 export function getUpdatePosts() {
   return getMDXData(path.join(process.cwd(), "content/update"));
 }
+export function getLivePosts() {
+  return getMDXData(path.join(process.cwd(), "content/live"));
+}

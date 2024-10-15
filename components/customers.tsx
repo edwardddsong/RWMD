@@ -8,7 +8,19 @@ import CustomerImg06 from "@/public/images/sam.png";
 import CustomerImg07 from "@/public/images/shian1.png";
 import CustomerImg08 from "@/public/images/qs.png";
 import CustomerImg09 from "@/public/images/king.png";
-import CustomerImg10 from "@/public/images/austin.png";
+import CustomerImg10 from "@/public/images/clientreview11.jpg";
+import CustomerImg11 from "@/public/images/clientreview12.jpg";
+import CustomerImg12 from "@/public/images/clientreview13.jpg";
+import CustomerImg13 from "@/public/images/clientreview14.jpg";
+import CustomerImg14 from "@/public/images/clientreview15.jpg";
+import CustomerImg15 from "@/public/images/clientreview16.jpg";
+import CustomerImg16 from "@/public/images/clientreview17.jpg";
+import CustomerImg17 from "@/public/images/clientreview18.jpg";
+import CustomerImg18 from "@/public/images/clientreview19.jpg";
+import CustomerImg19 from "@/public/images/clientreview20.jpg";
+import CustomerImg20 from "@/public/images/clientreview21.jpg";
+import CustomerImg21 from "@/public/images/clientreview22.jpg";
+import CustomerImg22 from "@/public/images/clientreview23.jpg";
 
 export default function Customers() {
   const items = [
@@ -108,6 +120,116 @@ export default function Customers() {
       quote:
         "在接触smc后  觉得这策略比我之前当散户的策略要精准  使用smc后心态会比散户会强一些  需要多加练习心态着方面  同时有一个好老师教也是必不可少的   z总就很有耐心的教 我学的也很快   遇到不懂的问题也能互相交流  希望之后能成为一名操盘手",
       name: "Austin",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg11,
+      quote:
+        "Ed老师在交易理论方面的讲解让我印象深刻。通过平台的学习，我不仅掌握了如何识别市场中的资金流向，还学会了如何根据理论调整交易策略。他的指导让我在实际操作中更加自信，感谢这段学习旅程~",
+      name: "牧熙",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg12,
+      quote:
+        "平台的学习资源还蛮丰富的，课程讲解也很清晰，让我对投资交易的理解更加深入了。每节课都有满满的干货，特别是关于市场周期的分析，让我能更好地把握投资时机。",
+      name: "小君宝",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg13,
+      quote:
+        "Z老师总能把复杂的内容讲得简单易懂，尤其在风险管理方面，他教我如何合理分配资金，控制风险，避免不必要的损失。整个学习过程都得到了及时的支持，这让我在实践中感到很有信心。",
+      name: "啊噗噜",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg14,
+      quote:
+        "Ed老师教会我如何从价格走势中寻找交易机会，他的讲解透彻、易于理解，帮助我提升了分析能力。平台还提供了一对一的辅导，这让我在学习交易过程中感受到更多的关怀和支持，收获颇丰。",
+      name: "XXuan:",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg15,
+      quote:
+        "平台的课程安排得很合理，让我在学习投资交易时有条不紊，一步步提升自己。老师们不仅教授交易理论，还强调了风险管理的重要性，让我在制定策略时更加谨慎。",
+      name: "自月至鱼",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg16,
+      quote:
+        "Z老师的讲解深入浅出，让我对市场运作有了更深的理解。他能把复杂的概念简单化，特别是在市场周期的分析上，让我能清晰地看到趋势。平台提供的资源也很丰富，学习体验相当不错。",
+      name: "粥粥",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg17,
+      quote:
+        "在这个平台上，我学到了很多实用的投资知识，老师们都乐于解答问题，我感受到了很大的支持。通过学习，我的投资心态变得更加成熟，课程内容也涵盖了许多重要的交易理论，让我在实际交易中更加自信，十分感谢！",
+      name: "Freya",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg18,
+      quote:
+        "通过平台的学习，我的投资心态变得更加成熟，课程内容真的很实用，我现在在实际交易中能够更好地控制风险、抓住机会。平台还提供每周的答疑直播和一对一辅导，对我的交易计划很有帮助。",
+      name: "一只眠羊",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg19,
+      quote:
+        "Z老师的课程真的很棒，每周的答疑直播也让我能够及时向老师请教，非常感谢老师的及时回答。",
+      name: "Spencer.",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg20,
+      quote:
+        "老师们的讲解清晰易懂，让我认识到如何控制交易风险和设置止损。课程中还提供了实用的案例分析，帮助我在实际交易中更加灵活地应用这些知识，感谢平台提供的专业支持",
+      name: "锅巴",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg21,
+      quote:
+        "Z老师让我重新认识了市场运作的方式，他教会我如何识别不同的市场阶段，并根据这些信息做出决策。他的经验分享在我日常交易中非常有帮助，感谢平台提供的优质资源和每周的答疑直播，让我在投资的道路上没有那么迷茫。 ",
+      name: "Billz",
       twitter: {
         handle: "@imsteve",
         link: "#0",

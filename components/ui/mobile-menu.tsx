@@ -70,6 +70,13 @@ export default function MobileMenu() {
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
               href="/about">
+              首页
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
+              href="/about">
               关于RWMD
             </Link>
           </li>
