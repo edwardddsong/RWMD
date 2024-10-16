@@ -105,12 +105,18 @@ export default function Recruitment() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t [border-image:linear-gradient(to_right,transparent,theme(colors.slate.800),transparent)1]">
+        <div className="py-12 md:py-20  [border-image:linear-gradient(to_right,transparent,theme(colors.slate.800),transparent)1]">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+            <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
+              RWMD机构算法交易{" "}
+            </div>
+            <h1 className="h1 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-6">
               加入我们
-            </h2>
+            </h1>
+            {/* <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+              加入我们
+            </h2> */}
             <p className="text-lg text-slate-400 mt-3">
               我们是创造者，问题的解决者和故事的讲述者。我们是一支多元化的团队，致力于通过构建各种产品与服务，为客户带来喜悦与满意。
             </p>

@@ -123,6 +123,13 @@ export default function MobileMenu() {
               直播回放
             </Link>
           </li>
+          <li>
+            <Link
+              className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
+              href="/connect">
+              联系我们
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

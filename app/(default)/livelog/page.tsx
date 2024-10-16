@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Changelog - RWMD",
+  title: "直播回放 - RWMD",
   description: "Page description",
 };
 

@@ -4,8 +4,8 @@ import Highlighter, { HighlighterItem } from "./highlighter";
 
 import FeatureImg01 from "@/public/images/rich.png";
 // import FeatureImg01 from "@/public/images/feature-image-01.png";
-import FeatureImg02 from "@/public/images/desk.jpeg";
-import FeatureImg03 from "@/public/images/cp.jpg";
+import FeatureImg02 from "@/public/images/ed.jpg";
+import FeatureImg03 from "@/public/images/dd.jpg";
 
 export default function Features02() {
   return (
@@ -34,6 +34,13 @@ export default function Features02() {
               如果您已经投入了超过一个月的专注且高质量的学习，您已经领先于40%的交易者。
               然而关键不在于花了多少时间，而在于学习的质量。如果停滞不前，不断更换策略或导师，或者花费时间却没有真正进步，即使经过数月的“学习”，您可能仍然处于初学者阶段。
               实际的、有效的学习，确保您明智的运用时间，可以显著加速您在交易中的进步。
+            </p>
+            <br />
+            <h2 className="h2 mt-8 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+              RWMD为您带来{" "}
+            </h2>
+            <p className="text-lg text-slate-400">
+              对于从没有接触过金融市场的普通人，RWMD在这里带给您最正确的学习道路，理论知识以及紧跟市场的独家分析，在最开始就以正确的观念来面对潜力无限的金融市场。对于在金融市场里打拼多年的老手，RWMD为您提供更全面的盘面分析，COT机构数据，流动性交易观点，为您的交易锦上添花，帮助您获得更多的盘面信息，为交易胜率再添一层牢固的保险。
             </p>
           </div>
 
@@ -117,9 +124,11 @@ export default function Features02() {
                               RWMD | Z
                             </h3>
                             <p className="text-slate-400 mt-8">
-                              我热衷于教学分享，并且对自己有效传授知识的能力充满信心。
+                              作为RWMD的创始人，同时作为交易12年的交易员，我深知大家所需要什么。曾经我自己的成功与失败经历，都可以作为经验总结给未来交易者们借鉴和规避。金融市场是公平的，所有的交易都是撮合交易，我们自己也在盈利与亏损的角色中随时转换。所以金融市场讲究的只应该是纪律和规则。一套好的交易系统和入场模型是我们作为交易员要熟练掌握并且随时精进的。我专修的交易系统是聪明钱概念，也称为流动性交易。市场里只有两样东西是实时的，且不会说谎的
+                              —— 时间和K线。
                             </p>
                             <p className="text-slate-400 mt-2">
+                              同时我热衷于教学分享，并且对自己有效传授知识的能力充满信心。
                               我坚信任何人都能学会盈利交易，但成为一名好老师需要具备某些特质。关键不在于了解所有关于交易的知识，而是专注于最有用和最相关的概念，构建一个坚实、持久的交易系统。
                             </p>
                             <p className="text-slate-400 mt-2">
@@ -214,10 +223,10 @@ export default function Features02() {
                             RWMD | DD
                           </h3>
                           <p className="text-slate-400 mt-6">
-                            作为销售总监，我始终热衷于帮助投资者在复杂多变的金融市场中自信应对挑战。
+                            作为销售总监和交易心理咨损师，我知道心态是做好交易的关键。拥有再好的技术，如果不能以正确的心态面对市场，到最后都会是竹篮打水。RWMD想给大家传达的信息是，金融市场有赢家有输家，正确的看待盈利以及亏损，做好每一笔交易的风险控制。金融不是一夜暴富，而是细水长流。
                           </p>
                           <p className="text-slate-400 mt-3">
-                            凭借多年的经验，我秉持透明、公开的原则，致力于为客户提供全面的交易知识和有效的工具，帮助他们做出明智的投资决策，减少风险。{" "}
+                            我始终热衷于帮助投资者在复杂多变的金融市场中自信应对挑战。凭借多年的经验，我秉持透明、公开的原则，致力于为客户提供全面的交易知识和有效的工具，帮助他们做出明智的投资决策，减少风险。
                           </p>
                           <p className="text-slate-400 mt-3">
                             我坚信，只有通过建立信任，创造一个安全、稳定的交易环境，才能真正助力投资者取得长期的成功，甚至改变他们的财务未来。{" "}

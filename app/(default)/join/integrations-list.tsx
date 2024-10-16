@@ -444,7 +444,7 @@ export default function IntegrationsList() {
                   placeholder="Search…"
                   autoComplete="off"
                 />
-                <div className="absolute inset-0 w-9 flex items-center justify-center pointer-events-none">
+                {/* <div className="absolute inset-0 w-9 flex items-center justify-center pointer-events-none">
                   <svg
                     className="absolute fill-slate-50 mx-3"
                     xmlns="http://www.w3.org/2000/svg"
@@ -452,7 +452,7 @@ export default function IntegrationsList() {
                     height="16">
                     <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7ZM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5Zm8.707 12.293a.999.999 0 1 1-1.414 1.414L11.9 13.314a8.019 8.019 0 0 0 1.414-1.414l2.393 2.393Z" />
                   </svg>
-                </div>
+                </div> */}
               </form>
             </div>
           </div>

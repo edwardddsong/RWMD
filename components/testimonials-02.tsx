@@ -55,14 +55,14 @@ export default function Testimonials02() {
           {/* Content */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              寻找合作伙伴/代理/推广/引流
+              寻找合作伙伴/代理/推广
             </h2>
             <p className="text-lg text-slate-400">
-              微信联系：richzc4357
+              合作联系：richzc4357
               <br />
-              微信联系：2493335201
+              代理联系：2493335201
               <br />
-              微信联系：doovydapanda
+              推广联系：doovydapanda
             </p>
           </div>
           {/* Grid */}
