@@ -65,7 +65,7 @@ export default function Cta02() {
             <div>
               <a
                 className="btn text-slate-900 bg-gradient-to-r from-white/80 via-white to-white/80 hover:bg-white transition duration-150 ease-in-out group"
-                href="https://portal.dlsm-portal.com/register?sales=QTAwMV9FZHdhcmRTb25n&language=zh-Hans">
+                href="https://portal.dlsm-portal.com/register?sales=QTAwMV9KYWNrc29uWmhhbw==&language=zh-Hans">
                 即刻开始{" "}
                 <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                   -&gt;
