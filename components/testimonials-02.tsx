@@ -58,7 +58,7 @@ export default function Testimonials02() {
               寻找合作伙伴/代理/推广
             </h2>
             <p className="text-lg text-slate-400">
-              合作联系：richzc4357
+              技术/合作联系：richzc4357
               <br />
               代理联系：Kamikelosi
               <br />
