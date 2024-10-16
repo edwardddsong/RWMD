@@ -1,4 +1,6 @@
 import Particles from "./particles";
+import Image from "next/image";
+import Logo from "@/public/images/DLSM_Logo.png";
 
 export default function Cta02() {
   return (
@@ -47,11 +49,20 @@ export default function Cta02() {
                 RWMD合作伙伴
               </div>
             </div>
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+            <div className="flex justify-center items-center">
+              <Image
+                className="relative"
+                src={Logo}
+                width={400}
+                height={400}
+                alt="RWMD"
+              />
+            </div>
+            {/* <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
               DLS Markets
-            </h2>
-            <p className="text-lg text-slate-400 mb-8">
-              DLSM提供多元化的投资产品， 使用前沿科技，
+            </h2> */}
+            <p className="text-lg text-slate-400 mb-8 mt-6 ">
+              DLS Markets提供多元化的投资产品， 使用前沿科技，
               为想要探索全球市场的投资者量身打造一个便捷又高效的平台。
               <br />
               通过融合创新的奖励体系，

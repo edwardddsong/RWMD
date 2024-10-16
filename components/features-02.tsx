@@ -2,7 +2,7 @@ import Image from "next/image";
 import Particles from "./particles";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from "@/public/images/rich.png";
+import FeatureImg01 from "@/public/images/rich2.png";
 // import FeatureImg01 from "@/public/images/feature-image-01.png";
 import FeatureImg02 from "@/public/images/ed.jpg";
 import FeatureImg03 from "@/public/images/dd.jpg";
@@ -132,7 +132,7 @@ export default function Features02() {
                               我坚信任何人都能学会盈利交易，但成为一名好老师需要具备某些特质。关键不在于了解所有关于交易的知识，而是专注于最有用和最相关的概念，构建一个坚实、持久的交易系统。
                             </p>
                             <p className="text-slate-400 mt-2">
-                              当你知道自己教会了别人一项他们可以终生受用的技能时，那种满足感是难以言表的。我亲眼见证了每周社区会议中的心理见解和深入讨论，如何不仅改变了人们的交易生涯，同时也改变了生活。
+                              当你知道自己教会了别人一项他们可以终生受用的技能时，那种满足感是难以言表的。我亲眼见证了每周社区会议中学员对于盘面的新见解，如何一点点打磨他们的交易生涯，同时改变了他们的生活。
                             </p>
                           </div>
                         </div>
