@@ -98,7 +98,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">巴巴罗萨</div>
+                        <div className="font-bold text-lg mb-1">巴巴**</div>
                         <div className="text-slate-400 mb-3">
                           在交易技术和心态上，Z总都非常乐于分享，耐心解答问题；SMC作为交易系统有明确的关注点位，从而做单有所指引，并且可以进一步理解价格行为
                         </div>
@@ -139,7 +139,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">飞舞的小草</div>
+                        <div className="font-bold text-lg mb-1">飞舞的**</div>
                         <div className="text-slate-400 mb-3">
                           从直播和平时群内的互动中就能深刻体会到赵老师的专业和严谨。无论是短线还是中长线，都可以精准拿捏进出场点位，更重要的是教会了学员如何正确理解这个市场，以及如何在完善风控的同时合理止盈，让大家在这个不确定的市场中尽可能占据主动。总结一句话你是我见过的最靠谱的职业交易员，没有之一。
                         </div>
@@ -180,7 +180,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">Sam</div>
+                        <div className="font-bold text-lg mb-1">S**</div>
                         <div className="text-slate-400 mb-3">
                           跟Z總學完SMC真的改變了我對市場的看法，操作邏輯清晰，簡單易懂，感覺每一步都有依據，再也不盲目操作了。策略雖然有效，但裡面主觀判斷挺多的，所以老師的指導特別關鍵，能幫助你規避很多誤區，感覺Z總在這方面還是很清晰的。
                         </div>
@@ -221,7 +221,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">Shian</div>
+                        <div className="font-bold text-lg mb-1">Sh**</div>
                         <div className="text-slate-400 mb-3">
                           在z总教导的SMC策略中，身为初学者的我学到了很多，也得到了极大的帮助。z总专业精神和热情使我在交易成长之路更加顺利。感谢z总对我的帮助。谢谢
                         </div>
@@ -262,7 +262,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 05"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">Oswarld</div>
+                        <div className="font-bold text-lg mb-1">Oswa**</div>
                         <div className="text-slate-400 mb-3">
                           感謝Ed老师開了這一個课程，我三年前開始學習交易有付費的有免費的，結果都是輸多贏少，他們的群組也不活躍一天只有數個留言還要是沒養分的，只能夠自己瞎子摸象自己看書似懂非懂的，但這裡的大佬都很熱心樂於分享讓我發現很多以前沒有聽過的知识
                         </div>
@@ -303,7 +303,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">青山</div>
+                        <div className="font-bold text-lg mb-1">青**</div>
                         <div className="text-slate-400 mb-3">
                           感谢Z哥的邀请，也非常感谢Z哥SMC的指点，我从SMC小白到通过考核，到目前盈利的状态，都是Z哥在我瓶颈的时候指点，才会那么大的改变；交易的道路还很长，路上有Z哥大佬级别的帮助，我想会轻松很多。
                           希望未来能在顶峰相见。由衷感谢Z哥！{" "}
@@ -345,7 +345,7 @@ export default function TestimonialsCarousel() {
                         alt="Icon 01"
                       />
                       <div className="grow">
-                        <div className="font-bold text-lg mb-1">King</div>
+                        <div className="font-bold text-lg mb-1">Ki**</div>
                         <div className="text-slate-400 mb-3">
                           自从认识了z总，我知道了流动性，FVG之类的聪明钱的概念，明白了之前为什么总是被打止损后迅速拉升。现在对市场的有了更清晰的认知！{" "}
                         </div>
