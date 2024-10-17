@@ -129,7 +129,7 @@ export default function Customers() {
       img: CustomerImg11,
       quote:
         "Ed老师在交易理论方面的讲解让我印象深刻。通过平台的学习，我不仅掌握了如何识别市场中的资金流向，还学会了如何根据理论调整交易策略。他的指导让我在实际操作中更加自信，感谢这段学习旅程~",
-      name: "牧熙",
+      name: "牧**",
       twitter: {
         handle: "@imsteve",
         link: "#0",
