@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
               </div>
               {/* Social links */}
-              <ul className="flex">
+              {/* <ul className="flex">
                 <li>
                   <a
                     className="flex justify-center items-center text-purple-500 hover:text-purple-400 transition duration-150 ease-in-out"
@@ -62,7 +62,7 @@ export default function Footer() {
                     </svg>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           {/* 中文内容块 (占 3/4 宽度) */}

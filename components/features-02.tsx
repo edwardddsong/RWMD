@@ -22,27 +22,6 @@ export default function Features02() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-16 md:pt-32">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              95%的零售外汇交易者亏损
-            </h2>
-            <p className="text-lg text-slate-400">
-              您可能听过这样一句令人寒心的话：“95%的零售外汇交易者亏损。”
-              然而，通过我们对20家顶级差价合约（CFD）提供商的数据进行广泛分析后发现，实际情况并没有那么糟糕，亏损率为84%。
-              要成为那16%的成功者之一，关键在于投入和坚持。成功的道路并没有许多人想象的那么陡峭，但很少有人愿意真正走下去。
-              此外，估计有80%的新手交易者在第一年内退出交易市场。
-              如果您已经投入了超过一个月的专注且高质量的学习，您已经领先于40%的交易者。
-              然而关键不在于花了多少时间，而在于学习的质量。如果停滞不前，不断更换策略或导师，或者花费时间却没有真正进步，即使经过数月的“学习”，您可能仍然处于初学者阶段。
-              实际的、有效的学习，确保您明智的运用时间，可以显著加速您在交易中的进步。
-            </p>
-            <br />
-            <h2 className="h2 mt-8 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              RWMD为您带来{" "}
-            </h2>
-            <p className="text-lg text-slate-400">
-              对于从没有接触过金融市场的普通人，RWMD在这里带给您最正确的学习道路，理论知识以及紧跟市场的独家分析，在最开始就以正确的观念来面对潜力无限的金融市场。对于在金融市场里打拼多年的老手，RWMD为您提供更全面的盘面分析，COT机构数据，流动性交易观点，为您的交易锦上添花，帮助您获得更多的盘面信息，为交易胜率再添一层牢固的保险。
-            </p>
-          </div>
 
           {/* Highlighted boxes */}
           <div className="relative pb-12 md:pb-20">
@@ -248,6 +227,38 @@ export default function Features02() {
                 </HighlighterItem>
               </div>
             </Highlighter>
+          </div>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+              95%的零售外汇交易者亏损
+            </h2>
+            <p className="text-lg text-slate-400">
+              您可能听过这样一句令人寒心的话：“95%的零售外汇交易者亏损。”
+              然而，通过我们对20家顶级差价合约（CFD）提供商的数据进行广泛分析后发现，实际情况并没有那么糟糕，亏损率为84%。
+              要成为那16%的成功者之一，关键在于投入和坚持。成功的道路并没有许多人想象的那么陡峭，但很少有人愿意真正走下去。
+              此外，估计有80%的新手交易者在第一年内退出交易市场。
+              如果您已经投入了超过一个月的专注且高质量的学习，您已经领先于40%的交易者。
+              然而关键不在于花了多少时间，而在于学习的质量。如果停滞不前，不断更换策略或导师，或者花费时间却没有真正进步，即使经过数月的“学习”，您可能仍然处于初学者阶段。
+              实际的、有效的学习，确保您明智的运用时间，可以显著加速您在交易中的进步。
+            </p>
+            <br />
+            <h2 className="h2 mt-8 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+              RWMD为您带来{" "}
+            </h2>
+            <p className="text-lg text-slate-400">
+              <br />
+              1. 正确的交易学习道路，理论知识以及实战经验分享
+              <br />
+              2. 紧跟市场的独家分析 + 流动性交易观点
+              <br />
+              3. COT机构数据
+              <br />
+              4. 交易心理辅导
+              <br />
+              5. 直播复盘以及下周盘面预期
+              <br />
+              6. 1对1指导{" "}
+            </p>
           </div>
 
           {/* Features list */}
