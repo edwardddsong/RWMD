@@ -230,7 +230,7 @@ export default function Features02() {
           </div>
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              95%的零售外汇交易者亏损
+              5%的成功者会是你吗？
             </h2>
             <p className="text-lg text-slate-400">
               您可能听过这样一句令人寒心的话：“95%的零售外汇交易者亏损。”
