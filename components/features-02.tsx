@@ -2,7 +2,7 @@ import Image from "next/image";
 import Particles from "./particles";
 import Highlighter, { HighlighterItem } from "./highlighter";
 
-import FeatureImg01 from "@/public/images/rich2.png";
+import FeatureImg01 from "@/public/images/rich3.png";
 // import FeatureImg01 from "@/public/images/feature-image-01.png";
 import FeatureImg02 from "@/public/images/ed.jpg";
 import FeatureImg03 from "@/public/images/dd.jpg";
