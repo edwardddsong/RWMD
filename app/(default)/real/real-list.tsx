@@ -31,7 +31,7 @@ import CustomerBg16 from "@/public/real/ED/240813_xauusd1.png";
 import CustomerBg17 from "@/public/real/ED/240813_xauusd.png";
 import CustomerBg18 from "@/public/real/RI/20241013xauusd.png";
 import CustomerBg19 from "@/public/RWMD_learning/241021dxyuse.jpg";
-import CustomerBg20 from "@/public/RWMD_learning/241021xauusduse.jpg";
+import CustomerBg20 from "@/public/RWMD_learning/241021xauusduse.png";
 import CustomerAvatar01 from "@/public/images/customer-avatar-01.jpg";
 import CustomerAvatar02 from "@/public/images/customer-avatar-02.jpg";
 import Particles from "@/components/particles";
