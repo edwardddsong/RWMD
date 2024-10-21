@@ -30,6 +30,8 @@ import CustomerBg15 from "@/public/real/ED/240814_audusd1.png";
 import CustomerBg16 from "@/public/real/ED/240813_xauusd1.png";
 import CustomerBg17 from "@/public/real/ED/240813_xauusd.png";
 import CustomerBg18 from "@/public/real/RI/20241013xauusd.png";
+import CustomerBg19 from "@/public/RWMD_learning/241021dxyuse.jpg";
+import CustomerBg20 from "@/public/RWMD_learning/241021xauusduse.jpg";
 import CustomerAvatar01 from "@/public/images/customer-avatar-01.jpg";
 import CustomerAvatar02 from "@/public/images/customer-avatar-02.jpg";
 import Particles from "@/components/particles";
@@ -145,34 +147,52 @@ export default function RealList() {
       bg: CustomerBg18,
       link: "/customers/single-post",
     },
+    {
+      name: "Customer name",
+      img: CustomerImg12,
+      bg: CustomerBg19,
+      link: "/customers/single-post",
+    },
+    {
+      name: "Customer name",
+      img: CustomerImg12,
+      bg: CustomerBg20,
+      link: "/customers/single-post",
+    },
   ];
 
   return (
     <div className="max-w-[352px] mx-auto sm:max-w-[728px] lg:max-w-none pb-12 md:pb-20">
       <Highlighter className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 group [&_*:nth-child(n+5):not(:nth-child(n+12))]:order-1 [&_*:nth-child(n+10):not(:nth-child(n+11))]:!order-2">
-        {items.map((item, index) => (
-          <div key={index}>
-            <a href={item.bg.src} target="_blank">
-              <HighlighterItem02>
-                <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
-                  {/* Particles animation */}
-                  <Particles className="absolute inset-0 -z-10" quantity={3} />
-                  <div className="flex items-center justify-center">
-                    <Image
-                      className="w-full h-full "
-                      src={item.bg}
-                      width={352}
-                      height={500}
-                      alt="Customer Background"
-                      aria-hidden="true"
+        {items
+          .slice()
+          .reverse()
+          .map((item, index) => (
+            <div key={index}>
+              <a href={item.bg.src} target="_blank">
+                <HighlighterItem02>
+                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                    {/* Particles animation */}
+                    <Particles
+                      className="absolute inset-0 -z-10"
+                      quantity={3}
                     />
-                    {/* <Image className="absolute" src={item.img} alt={item.name} /> */}
+                    <div className="flex items-center justify-center">
+                      <Image
+                        className="w-full h-full "
+                        src={item.bg}
+                        width={352}
+                        height={500}
+                        alt="Customer Background"
+                        aria-hidden="true"
+                      />
+                      {/* <Image className="absolute" src={item.img} alt={item.name} /> */}
+                    </div>
                   </div>
-                </div>
-              </HighlighterItem02>
-            </a>
-          </div>
-        ))}
+                </HighlighterItem02>
+              </a>
+            </div>
+          ))}
 
         {/* Testimonial #01 */}
         {/* <div className="flex flex-col items-center justify-center text-center p-4">

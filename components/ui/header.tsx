@@ -26,14 +26,14 @@ export default function Header() {
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/about">
+                  href="/aboutus">
                   关于RWMD
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/join">
+                  href="/services">
                   RWMD服务{" "}
                 </Link>
               </li>
@@ -41,7 +41,7 @@ export default function Header() {
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/customers">
+                  href="/learning">
                   学习中心
                 </Link>
               </li>
@@ -56,28 +56,28 @@ export default function Header() {
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/changelog">
+                  href="/weeklyreport">
                   每周分析
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/livelog">
+                  href="/livestream">
                   直播回放
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/pricing">
+                  href="/testimonials">
                   客户感言
                 </Link>
               </li>
               <li>
                 <Link
                   className="font-medium text-sm text-slate-300 hover:text-white mx-4 lg:mx-5 transition duration-150 ease-in-out"
-                  href="/connect">
+                  href="/contactus">
                   联系我们
                 </Link>
               </li>

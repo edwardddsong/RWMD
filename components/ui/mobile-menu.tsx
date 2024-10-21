@@ -69,21 +69,21 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/about">
+              href="/aboutus">
               首页
             </Link>
           </li>
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/about">
+              href="/aboutus">
               关于RWMD
             </Link>
           </li>
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/join">
+              href="/services">
               RWMD服务
             </Link>
           </li>
@@ -91,7 +91,7 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/customers">
+              href="/learning">
               学习中心
             </Link>
           </li>
@@ -105,28 +105,28 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/pricing">
+              href="/testimonials">
               客户感言
             </Link>
           </li>
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/changelog">
+              href="/weeklyreport">
               每周分析
             </Link>
           </li>
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/livelog">
+              href="/livestream">
               直播回放
             </Link>
           </li>
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              href="/connect">
+              href="/contactus">
               联系我们
             </Link>
           </li>
