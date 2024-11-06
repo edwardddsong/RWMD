@@ -20,7 +20,35 @@ import CustomerImg18 from "@/public/images/clientreview19.jpg";
 import CustomerImg19 from "@/public/images/clientreview20.jpg";
 import CustomerImg20 from "@/public/images/clientreview21.jpg";
 import CustomerImg21 from "@/public/images/clientreview22.jpg";
-import CustomerImg22 from "@/public/images/clientreview23.jpg";
+import CustomerImg22 from "@/public/client/clientreview24.jpg";
+import CustomerImg25 from "@/public/client/clientreview25.jpg";
+import CustomerImg26 from "@/public/client/clientreview26.jpg";
+import CustomerImg27 from "@/public/client/clientreview27.jpg";
+import CustomerImg28 from "@/public/client/clientreview28.jpg";
+import CustomerImg29 from "@/public/client/clientreview29.jpg";
+import CustomerImg30 from "@/public/client/clientreview30.jpg";
+import CustomerImg31 from "@/public/client/clientreview31.jpg";
+import CustomerImg32 from "@/public/client/clientreview32.jpg";
+import CustomerImg33 from "@/public/client/clientreview33.jpg";
+import CustomerImg34 from "@/public/client/clientreview34.jpg";
+import CustomerImg35 from "@/public/client/clientreview35.jpg";
+import CustomerImg36 from "@/public/client/clientreview36.jpg";
+import CustomerImg37 from "@/public/client/clientreview37.jpg";
+import CustomerImg38 from "@/public/client/clientreview38.jpg";
+// import CustomerImg39 from "@/public/client/clientreview39.jpg";
+// import CustomerImg40 from "@/public/client/clientreview40.jpg";
+import CustomerImg41 from "@/public/client/clientreview41.jpg";
+import CustomerImg42 from "@/public/client/clientreview42.jpg";
+import CustomerImg43 from "@/public/client/clientreview43.jpg";
+import CustomerImg44 from "@/public/client/clientreview44.jpg";
+import CustomerImg45 from "@/public/client/clientreview45.jpg";
+import CustomerImg46 from "@/public/client/clientreview46.jpg";
+import CustomerImg47 from "@/public/client/clientreview47.jpg";
+import CustomerImg48 from "@/public/client/clientreview48.jpg";
+import CustomerImg49 from "@/public/client/clientreview49.jpg";
+import CustomerImg50 from "@/public/client/clientreview50.jpg";
+import CustomerImg51 from "@/public/client/clientreview51.jpg";
+import CustomerImg52 from "@/public/client/clientreview52.jpg";
 
 export default function Customers() {
   const items = [
@@ -235,6 +263,284 @@ export default function Customers() {
         link: "#0",
       },
     },
+    // RENAME
+    {
+      img: CustomerImg22,
+      quote:
+        "其实我自学SMC已经有很长一段时间了，但实盘一直不理想。后来看到ED老师的课程才感觉好像顿悟了什么。少开了很多没用的单子，终于明白了如何最快实现盈利：慢慢来，才是最快的。 ",
+      name: "Bil**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg38,
+      quote:
+        "谢谢Z老师！看过很多其他博主的课程，了解了很多方法，但还是懵懵懂懂。直到上了Z老师的课程，才把之前学的方法都串联在一起了，非常感谢！希望还能继续推出新的课程~~",
+      name: "吴超**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg25,
+      quote:
+        "我关注了X上的许多国外优秀交易员，但一直无法领悟要点。直到上了ED老师的课程，才真正有醍醐灌顶的感觉。感谢Z老师，课程内容清晰",
+      name: "Bubb**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg26,
+      quote:
+        "我们曾是一群被教导了错误交易方法的小白，我努力寻找正确的交易观念，最终找到了您。非常感激您的无私分享！谢谢您！",
+      name: "迪海**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg27,
+      quote: "谢谢在交易路程中给予我指引和照明方向的交易员Z老师！",
+      name: "3M46**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg28,
+      quote:
+        "谢谢Z老师，让我有机会学习SMC。对我来说，学习SMC并不简单，但在正确的时间做对的事真的非常重要。",
+      name: "CX**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg29,
+      quote:
+        "谢谢ED老师，我真的很喜欢您的教学。我个人花了至少20K美元在学习外汇，但没有一个导师讲解过关于时间的重要性。之前只知道纽约交易时段很关键，没想到时间还有那么多细节。真的感谢您给我那“临门一脚”的点拨",
+      name: "maikou**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg30,
+      quote:
+        "非常感谢ED老师制作并分享如此精彩的ICT教学课程。您的课程内容丰富、讲解清晰，深入浅出地将复杂的ICT知识点呈现出来，让我受益匪浅。",
+      name: "司康**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg31,
+      quote:
+        "曾经我是一名支撑阻力玩家，经过RWMD的课程培训后终于打开了这个市场。就像Z总经常说的，市场的运动是流动性和订单匹配，我现在阅读图表的时候，会非常注重流动性所在的位置，用机构的思路去想盘面，对我的交易提升非常大。",
+      name: "里秦**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg32,
+      quote:
+        "通过观看ED老师的课程，我不仅对SMC有了更深入的了解，而且激发了我对这门学科的浓厚兴趣。您的教学方式生动活泼，让我在轻松愉快的氛围中学到了很多知识。",
+      name: "pep**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg33,
+      quote:
+        "感谢Z老师为我们提供如此宝贵的学习资源。我将继续努力学习，争取在SMC领域取得更大的进步。",
+      name: "陈陈**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg34,
+      quote:
+        "看完ED老师的视频后，我已经能够稳定盈利了，每日概况真的非常实用！ED老师教的都是逻辑思考，与外面大多数只教套模型的方法完全不同。",
+      name: "shal**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg35,
+      quote:
+        "谢Z总邀请。之前我自己卡了很多SMC的教学视频，从来没有人能像Z一样把盘中每一根有意义的K线讲的这么清楚。",
+      name: "林好**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg36,
+      quote:
+        "感谢ED老师的课程 这是我第一次接触关于时间分析的研究。以前我主要关注的是价格行为和模型，然而通过时间的拆分后，发现很多行为都和时间密切相关。期待未来能有更多课程，和大家一起学习并分享心得！",
+      name: "文**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg37,
+      quote:
+        "RWMD不光提升了我的交易技能，同时养成了良好的交易心态。接触了才知道之前自己的交易心态都是错的，马丁大手短线不带止损到最后只有爆仓的结局。还是希望所有朋友在进入市场之前先把心态放好，别想着一夜暴富。",
+      name: "带饭**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg41,
+      quote: "Z老师的小班课干货满满，人也非常nice，专业度极强。",
+      name: "Ts**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg42,
+      quote:
+        "有幸线下见面了Ed老师，很低调但是绝对是实力派。我的问题在Ed老师面前就像小儿科一样，回答的非常有逻辑且清晰。也终于让我重新认识了这个市场。",
+      name: "灯火**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg43,
+      quote:
+        "谢Z总邀请，来写给简短的评论。在RWMD里面一直跟着Z总，第一次知道有OB和FVG这些概念，之前从来没接触过。现在再回头看盘面，支撑阻力再也找不到了，全都是机构的思路。非常感谢Z总，受益匪浅。",
+      name: "激情**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg44,
+      quote:
+        "我在RWMD里面，终于找到了属于自己的交易模型。目前全职交易2年半了。",
+      name: "Michae**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg45,
+      quote:
+        "来到了RWMD之后才知道之前学习的看盘思路全是错的。真心建议在开始交易前和Z总还有Ed老师聊一下。他们的交易思路能给你非常多的帮助。",
+      name: "C.j**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg46,
+      quote:
+        "Z总年轻有为，管理百万美金的资金。去过一次老师的交易工作室，才知道职业交易员是怎么看图和下单的。市面上所能接触到的不过是短期盈利罢了，建议所有想好好学习交易的朋友来RWMD。",
+      name: "尽情**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg47,
+      quote:
+        "全职交易3年，目前4个资管账户在手，在一次直播中认识了Z总，也彻底改变了我对市场的认知。每周日Z总的直播，已经传授了非常多的技巧和心得，很难有人愿意分享自己的经验，Z很无私。非常感谢。",
+      name: "SHSZ**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg48,
+      quote:
+        "做了7年交易了，原来前7年的方法都是错的。套用Z总的一句话，你读不懂散户的止损，你就永远是个散户。",
+      name: "飞**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg49,
+      quote:
+        "谢邀。我自己本来也是做SMC的，认识了Ed老师，解决了一直也没弄明白的问题，很多问题自己想是想不透的，需要专业的人点拨，会有灵光一现的感觉。感谢RWMD。",
+      name: "RiL**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg50,
+      quote:
+        "要么读懂流动性，要么成为流动性，Ed老师一直和我强调这个观念。我之前最大的问题就是放置止损，很多时候行情打了我的止损就开跑，一直以为是运气不好，直到Ed老师讲明白流动性之后，才知道之前止损一直放错了，解决了这个大问题，目前账户稳定增长。非常感谢Ed老师的帮助，好人一生平安。",
+      name: "王书**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg51,
+      quote:
+        "和Z老师学习了一整套交易系统，从最开始的自上而下分析，到入场以及入场后的仓位管理怎么推止损，虽说还没稳定盈利，但是肉眼可见自己的进步。",
+      name: "Aa**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    {
+      img: CustomerImg52,
+      quote:
+        "感谢ED老师的课程内容，它们不断将我推向更接近高概率模型的方向，真的感激不尽，难以言表。希望能和大家携手并进，共同攀登交易这座高峰！",
+      name: "贝尔**",
+      twitter: {
+        handle: "@imsteve",
+        link: "#0",
+      },
+    },
+    // {
+    //   img: CustomerImg22,
+    //   quote: "",
+    //   name: "Bil**",
+    //   twitter: {
+    //     handle: "@imsteve",
+    //     link: "#0",
+    //   },
+    // },
   ];
 
   return (
