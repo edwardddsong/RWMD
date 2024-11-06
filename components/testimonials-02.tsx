@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Recruitment01 from "@/public/images/ea.png";
+
 import { StaticImageData } from "next/image";
 import Testimonial01 from "@/public/images/testimonial-01.png";
 import Testimonial02 from "@/public/images/testimonial-02.png";
@@ -58,9 +60,19 @@ export default function Testimonials02() {
               寻找合作伙伴/代理/推广
             </h2>
             <p className="text-lg text-slate-400">
-              技术/合作联系：richzc4357
+              技术/教学/资管/合作联系：richzc4357
               <br />
-              代理联系：Kamikelosi
+              EA/代理联系：Kamikelosi
+            </p>
+
+            <Image
+              className="w-full h-auto object-cover rounded-lg mt-4"
+              src={Recruitment01}
+              width={352}
+              height={220}
+              alt="Recruitment 01"
+            />
+            <p className="text-lg text-slate-400">
               <br />
               推广联系：doovydapanda
             </p>
